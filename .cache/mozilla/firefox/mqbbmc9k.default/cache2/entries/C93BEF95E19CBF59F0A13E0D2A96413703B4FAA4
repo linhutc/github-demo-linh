@@ -1,0 +1,317 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="關鍵字,關鍵字,關鍵字" />
+<meta name="description" content="某某某系所的網站" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>國立臺灣師範大學 物理學系</title>
+<link href="/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/css/wforms.css" rel="stylesheet" type="text/css" />
+<link href="/css/editor.css" rel="stylesheet" type="text/css" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie.css"><![endif]-->
+<link href="/css/main.css" rel="stylesheet" type="text/css" /><link href="/css/module/calendar.css" rel="stylesheet" type="text/css" />
+<link href="/css/zh-tw.css" rel="stylesheet" type="text/css" />
+<script src="/inc/js/prototype/prototype.js" type="text/javascript"></script>
+<script src="/inc/js/scriptaculous/scriptaculous.js" type="text/javascript"></script>
+<script src="/inc/js/jquery/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="/inc/js/pngfix.js"></script>
+<![endif]-->
+<script src="/inc/js/wforms/wforms.js" type="text/javascript"></script>
+<script src="/inc/js/wforms/localization-tw.js" type="text/javascript"></script>
+<script src="/inc/js/sorttable.js" type="text/javascript"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body id="page_main">
+<noscript>您的瀏覽器不支援Javascript，部分功能將無法呈現。</noscript>
+
+
+
+<div id="container"><div id="container2">
+	<div id="pageheader"><div id="pageheader2"><div id="corner"><div id="corner2"><!-- 工具選單  -->
+
+<a id="accesskey_top" accesskey="U" href="/accesskey.php" title="捷徑工具列" >:::</a>
+
+<a href="/app-op/site_map.php" title="網站導覽" >網站導覽</a>
+<span>|</span>
+<a href="/login.php" >Login</a>
+<span>|</span>
+
+
+
+
+		
+<a href="http://www2.phy.ntnu.edu.tw/en/" title="English" >English</a> 
+
+</div></div>			
+			<script src="/inc/js/jquery/jquery.innerfade.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				var $jadb = jQuery.noConflict(); 
+				$jadb(document).ready(
+					function(){
+						$jadb('ul.ADBportfolio').innerfade({
+				speed: 'slow',
+				timeout: 3000,
+				type: 'sequence',
+				containerheight: '2em'
+						});
+				});		
+			</script>
+			<div id="ADB"><ul class="ADBportfolio"><li class="ADBportfolio_2"><a href="DSFSDF"><img src="/files/adbannerplay/1_83bd66f6.jpg" width="920" height="280" alt="A1" title="A1" /></a></li></ul></div>
+	<a href="/main.php" title="回首頁">
+		<img src="/css/logo.jpg" alt="LOGO" title="回首頁" />
+	</a>
+
+	<h1><span>國立臺灣師範大學 物理學系</span></h1></div></div>
+
+	<div id="main1"><div id="main2"><div id="main">
+
+		
+		<div id="content">
+
+		<div id="content2">
+
+		<a id="accesskey_content" accesskey="C" href="/accesskey.php" title="內容區塊">:::</a>
+
+				
+<div id="boxA" class="box">
+	<h2><span>系所公告</span></h2><ul><li><span id="news">2020-09-22<a href="/app/news.php?Sn=1871" title="109-1碩.博士班優秀研究生獎學金申請（APPLY-Scholarship for Outstanding Doctoral and Graduate Students）-即日起至109年10月19日止（Deadline:2020/10/19）"> 109-1碩.博士班優秀研究生獎學金申請（APPLY-Scholarship for Outstanding Doctoral and Graduate Students）-即日起至109年10月19日止（Deadline:2020/10/19） </a></span></li><li><span id="news">2020-09-03<a href="/app/news.php?Sn=1866" title="誠徵技術類約用人員乙名"> 誠徵技術類約用人員乙名 </a></span></li><li><span id="news">2020-05-28<a href="/app/news.php?Sn=1831" title="109學年度課表"> 109學年度課表 </a></span></li><li><span id="news">2020-09-23<a href="/app/news.php?Sn=1875" title="傑出學生選拔（請在109年10月19日前將申請表件交至系辦公室）"> 傑出學生選拔（請在109年10月19日前將申請表件交至系辦公室） </a></span></li><li><span id="news">2020-09-22<a href="/app/news.php?Sn=1874" title="物理系獎學金（即日起至109年10月19日前將申請表件交至系辦公室）"> 物理系獎學金（即日起至109年10月19日前將申請表件交至系辦公室） </a></span></li></ul><div class="note"><a href="/news/news.php?class=101" title="更多系所公告">MORE</a></div></div>
+
+<div id="boxB" class="box">
+	<h2><span>演講活動</span></h2><ul><li><span id="news">2020-08-18<a href="/app/news.php?Sn=1852" title="1091-專題演講-1091021-管希聖（台大物理系）"> 1091-專題演講-1091021-管希聖（台大物理系） </a></span></li><li><span id="news">2020-08-18<a href="/app/news.php?Sn=1851" title="1091-專題演講-1091014-陳詩芸（台科大材料系）"> 1091-專題演講-1091014-陳詩芸（台科大材料系） </a></span></li><li><span id="news">2020-08-18<a href="/app/news.php?Sn=1850" title="1091-專題演講-1091007-吳亞霖（台師大物理系）"> 1091-專題演講-1091007-吳亞霖（台師大物理系） </a></span></li><li><span id="news">2020-08-18<a href="/app/news.php?Sn=1849" title="1091-專題演講-1090930-卜宏毅（台師大物理系）"> 1091-專題演講-1090930-卜宏毅（台師大物理系） </a></span></li><li><span id="news">2020-08-18<a href="/app/news.php?Sn=1848" title="1091-專題演講-1090923-柯文政（台科大材料系）"> 1091-專題演講-1090923-柯文政（台科大材料系） </a></span></li></ul><div class="note"><a href="/news/news.php?class=103" title="更多演講活動">MORE</a></div></div>
+
+<div id="boxC" class="box">
+	<h2><span>系所榮譽</span></h2><ul><li><span id="news">2020-09-17<a href="/app/news.php?Sn=1869" title="恭喜本系學生詹育誠、陳泓儒及蔡培元參加「2020 全國物理教育聯合會議壁報論文競賽」獲得佳作"> 恭喜本系學生詹育誠、陳泓儒及蔡培元參加「2020 全國物理教育聯合會議壁報論文競賽」獲得佳作 </a></span></li><li><span id="news">2020-08-31<a href="/app/news.php?Sn=1865" title="恭賀本系卜宏毅助理教授獲得2020 EHT 新進人才獎"> 恭賀本系卜宏毅助理教授獲得2020 EHT 新進人才獎 </a></span></li><li><span id="news">2020-08-20<a href="/app/news.php?Sn=1864" title="恭賀本系徐鏞元副教授獲頒2020年中華民國物理教育推廣獎（個人）"> 恭賀本系徐鏞元副教授獲頒2020年中華民國物理教育推廣獎（個人） </a></span></li><li><span id="news">2020-08-11<a href="/app/news.php?Sn=1846" title="恭喜2020年本系14位系友錄取正式教職"> 恭喜2020年本系14位系友錄取正式教職 </a></span></li><li><span id="news">2020-08-03<a href="/app/news.php?Sn=1844" title="恭喜本系陳穎叡副教授及駱芳鈺副教授獲109年度教師教學獎勵[教學優良獎]"> 恭喜本系陳穎叡副教授及駱芳鈺副教授獲109年度教師教學獎勵[教學優良獎] </a></span></li></ul><div class="note"><a href="/news/news.php?class=106" title="更多系所榮譽">MORE</a></div></div>
+<div id="boxD" class="box">
+	<h2><span>獎助學金</span></h2><ul><li><span id="news">2019-09-26<a href="/app/news.php?Sn=1759" title="物理系系友會國際交流活動獎學金（歡迎申請）"> 物理系系友會國際交流活動獎學金（歡迎申請） </a></span></li><li><span id="news">2020-09-08<a href="/app/news.php?Sn=1868" title="109-1物理系教學助理通過名單"> 109-1物理系教學助理通過名單 </a></span></li><li><span id="news">2020-06-10<a href="/app/news.php?Sn=1833" title="108-2碩.博士班獎學金獲獎公告"> 108-2碩.博士班獎學金獲獎公告 </a></span></li><li><span id="news">2020-04-10<a href="/app/news.php?Sn=1825" title="108-2四九級理化系系友獎學金名單"> 108-2四九級理化系系友獎學金名單 </a></span></li><li><span id="news">2020-03-26<a href="/app/news.php?Sn=1768" title="108學年度第2學期五育獎"> 108學年度第2學期五育獎 </a></span></li></ul><div class="note"><a href="/news/news.php?class=105" title="更多獎助學金">MORE</a></div></div>
+
+						</div></div></div></div></div>		
+	  	<div id="linklist"><div id="linklist2"><div id="linklist3"><!-- 個人服務區  -->
+
+<a id="accesskey_menu" accesskey="M" href="/accesskey.php" title="主選單">:::</a>
+
+
+<!-- 網站選單 -->
+
+<div id="menu1"><div id="menu1_b"><h3><span>主選單</span></h3><ul id="ul_menu1_0" class=""><li class="odd"><span><a href="/news/news.php?class=101" alt="最新消息" title="最新消息"  ><span>最新消息</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/news/news.php?class=101" alt="系所公告" title="系所公告"  ><span>系所公告</span></a></span></li><li><span><a href="/news/news.php?class=102" alt="招生資訊" title="招生資訊"  ><span>招生資訊</span></a></span></li><li class="odd"><span><a href="/news/news.php?class=103" alt="演講活動" title="演講活動"  ><span>演講活動</span></a></span></li><li><span><a href="/news/news.php?class=106" alt="系所榮譽" title="系所榮譽"  ><span>系所榮譽</span></a></span></li><li class="odd"><span><a href="/news/news.php?class=105" alt="獎助學金" title="獎助學金"  ><span>獎助學金</span></a></span></li></ul></span></li><li><span><a href="/intro/super_pages.php?ID=about1" alt="系所介紹" title="系所介紹"  ><span>系所介紹</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/intro/super_pages.php?ID=about1" alt="系所簡介" title="系所簡介"  ><span>系所簡介</span></a></span></li><li><span><a href="/intro/super_pages.php?ID=about2" alt="師資與研究" title="師資與研究"  ><span>師資與研究</span></a></span></li><li class="odd"><span><a href="/intro/super_pages.php?ID=about4" alt="課程結構" title="課程結構"  ><span>課程結構</span></a></span></li><li><span><a href="/intro/super_pages.php?ID=location" alt="地理位置" title="地理位置"  ><span>地理位置</span></a></span></li><li class="odd"><span><a href="/intro/super_pages.php?ID=about6" alt="物理系LOGO" title="物理系LOGO"  ><span>物理系LOGO</span></a></span></li><li><span><a href="/page/archive.php?class=201" alt="規章辦法" title="規章辦法"  ><span>規章辦法</span></a></span></li></ul></span></li><li class="odd"><span><a href="/members/teacher.php?class=110" alt="系所成員" title="系所成員"  ><span>系所成員</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/members/teacher.php?class=110" alt="專任教授" title="專任教授"  ><span>專任教授</span></a></span></li><li><span><a href="/members/teacher.php?class=140" alt="合聘教授" title="合聘教授"  ><span>合聘教授</span></a></span></li><li class="odd"><span><a href="/members/teacher.php?class=130" alt="講座教授" title="講座教授"  ><span>講座教授</span></a></span></li><li><span><a href="/members/teacher.php?class=170" alt="名譽教授" title="名譽教授"  ><span>名譽教授</span></a></span></li><li class="odd"><span><a href="/members/teacher.php?class=160" alt="退休教授" title="退休教授"  ><span>退休教授</span></a></span></li><li><span><a href="/members/teacher.php?class=190" alt="專責導師" title="專責導師"  ><span>專責導師</span></a></span></li><li class="odd"><span><a href="/members/super_pages.php?ID=member2" alt="博士後研究員" title="博士後研究員"  ><span>博士後研究員</span></a></span></li><li><span><a href="/members/super_pages.php?ID=ta" alt="助教" title="助教"  ><span>助教</span></a></span></li><li class="odd"><span><a href="/members/staff.php" alt="行政人員" title="行政人員"  ><span>行政人員</span></a></span></li></ul></span></li><li><span><a href="/course/super_pages.php?ID=course1" alt="課程與學程" title="課程與學程"  ><span>課程與學程</span></a></span></li><li class="odd"><span><a href="/research/super_pages.php?ID=research" alt="研究與發表" title="研究與發表"  ><span>研究與發表</span></a></span></li><li><span><a href="/infron/recruit.php?class=101" alt="招生訊息" title="招生訊息"  ><span>招生訊息</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/infron/recruit.php?class=101" alt="大學部專區" title="大學部專區"  ><span>大學部專區</span></a></span></li><li><span><a href="/infron/recruit.php?class=102" alt="研究所專區" title="研究所專區"  ><span>研究所專區</span></a></span></li><li class="odd"><span><a href="/infron/recruit.php?class=103" alt="國際薦送及交換生專區" title="國際薦送及交換生專區"  ><span>國際薦送及交換生專區</span></a></span></li></ul></span></li><li class="odd"><span><a href="/scholarship/super_pages.php?ID=Scholarship1" alt="獎助學金" title="獎助學金"  ><span>獎助學金</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/scholarship/super_pages.php?ID=Scholarship1" alt="大學部學生獎助學金" title="大學部學生獎助學金"  ><span>大學部學生獎助學金</span></a></span></li><li><span><a href="/scholarship/super_pages.php?ID=Scholarship2" alt="碩博士獎助學金" title="碩博士獎助學金"  ><span>碩博士獎助學金</span></a></span></li><li class="odd"><span><a href="http://assistance.sa.ntnu.edu.tw/files/13-1001-301.php" alt="學校獎助學金" title="學校獎助學金" target="_blank"  rel="noopener noreferrer"><span>學校獎助學金</span></a></span></li><li><span><a href="http://home.phy.ntnu.edu.tw/index.php/系友會獎助學金/系友會還願助學金.html" alt="系友會還願獎助學金" title="系友會還願獎助學金" target="_blank"  rel="noopener noreferrer"><span>系友會還願獎助學金</span></a></span></li></ul></span></li><li><span><a href="/web/url.php?class=101" alt="網路資源" title="網路資源"  ><span>網路資源</span></a><ul id="ul_submenu1_0" class=""><li class="odd"><span><a href="/web/url.php?class=102" alt="教育推廣" title="教育推廣"  ><span>教育推廣</span></a></span></li><li><span><a href="/web/url.php?class=101" alt="WebMail登入" title="WebMail登入"  ><span>WebMail登入</span></a></span></li><li class="odd"><span><a href="/web/url.php?class=103" alt="其他網路連結" title="其他網路連結"  ><span>其他網路連結</span></a></span></li><li><span><a href="/web/archive.php?class=207" alt="文件下載" title="文件下載"  ><span>文件下載</span></a></span></li></ul></span></li><li class="odd"><span><a href="/graduation/super_pages.php?ID=graduation2" alt="畢業專區" title="畢業專區"  ><span>畢業專區</span></a></span></li></ul></div></div>
+<!-- 搜尋區塊 -->
+<div id="menu_search">
+        <form method="get" action="http://www.google.com/custom">
+
+        <input type="text" name="q" id="q" value="" alt="搜尋內容"/>
+        <input type="submit" name="sa" id="sa" value="."/>
+        <input type="hidden" name="ie" value="utf-8"/>
+        <input type="hidden" name="oe" value="utf-8"/>
+        <input type="hidden" name="client" value="pub-&amp"/>
+        <input type="hidden" name="cof" value="AH:center;AWFID:03de271f1940eea3;"/>
+        <input type="hidden" name="domains" value="www2.phy.ntnu.edu.tw"/>
+        <input type="radio" name="sitesearch" id="sitesearch" value="www2.phy.ntnu.edu.tw" checked="checked"
+               alt="搜尋本站"/><label for="domain">搜尋本站</label>
+        <input type="radio" name="sitesearch" id="sitesearch" value="" alt="搜尋站外"/> <label
+                for="www">搜尋站外 </label>
+
+        <input type="hidden" name="PreviousPage"
+               value="%2F"/>
+
+
+    </form>
+</div>
+</div></div></div>
+		<div id="extralist10">
+
+<script type="text/javascript">
+
+	var $i = jQuery.noConflict();
+
+	$i('document').ready(function(){
+		var viewWidth = $i(window).width();
+		if ( viewWidth < 480 ) {
+			$i('#pageheader').after($i('#linklist'));
+			$i('#main1').before($i('#ADB'));
+			$i('#main1').before($i('.box-banner'));
+		}
+
+		$i('#linklist3 #menu1').before('<div class="menu_toggle"><div class="toggle"><span>MENU</span><i class="fa fa-bars"></i></div></div>');
+
+		$i('.menu_toggle').click(function(){
+			$i('#linklist3 #menu1').slideToggle();
+		})
+	})
+
+	$i(window).resize(function(){
+		var viewWidth = $i(window).width();
+		if ( viewWidth > 480 ) {
+			$i('#pageheader').after($i('#main1'));
+			$i('#pageheader2 > a').before($i('#ADB'));
+			$i('#boxLEFT').before($i('.box-banner'));
+			$i('#linklist3 #menu1').css('display','block');
+		}
+		if ( viewWidth < 480 ) {
+			$i('#pageheader').after($i('#linklist'));
+			$i('#main1').before($i('#ADB'));
+			$i('#main1').before($i('.box-banner'));
+			$i('#linklist3 #menu1').css('display','none');
+			
+			if ( $i('#ADB > * > *').length > 0 ) {
+				$i('#container #container2 #ADB a').each(function(){
+				  if ($i(this).css('display') == 'block')
+				  	adbHeight = $i(this).find('img').height();
+				  console.log(adbHeight);
+				})
+				$i('#container #container2 #ADB > *').css('height',adbHeight);
+			}
+		}
+	});
+
+</script>	<div class="box-banner">
+		<div class="block-banner"><div class="item"><span class="banner-img"><img src="http://www2.phy.ntnu.edu.tw/files/news/1783_8a6855cc.jpg" width="920" height="280" alt="裝飾性圖片" title="裝飾性圖片" /></span><span class="banner-title"><a href="/app/news.php?Sn=1783"> 2019/11/30-12/05本系師生至九州大學學術參訪交流 </a></span></div><div class="item"><span class="banner-img"><img src="http://www2.phy.ntnu.edu.tw/files/news/1752_64aad3d6.jpg" width="906" height="275" alt="裝飾性圖片" title="裝飾性圖片" /></span><span class="banner-title"><a href="/app/news.php?Sn=1752"> 2019/9/18-20南開大學物理科學學院師生來訪 </a></span></div><div class="item"><span class="banner-img"><img src="http://www2.phy.ntnu.edu.tw/files/news/1867_8007ccf0.jpg" width="920" height="280" alt="裝飾性圖片" title="裝飾性圖片" /></span><span class="banner-title"><a href="/app/news.php?Sn=1867"> 110碩.博士班甄試入學 </a></span></div><div class="item"><span class="banner-img"><img src="http://www2.phy.ntnu.edu.tw/files/news/1834_24d4f43c.jpg" width="906" height="275" alt="裝飾性圖片" title="裝飾性圖片" /></span><span class="banner-title"><a href="/app/news.php?Sn=1834"> 108學年度物理學系撥穗典禮 </a></span></div></div>	</div>
+<div id="boxLEFT">
+<div id="boxExtA">
+	<div class="photo"><a href="/photo/pic.php?CID=1&amp;Album_ID=2&amp;Photo_ID=5"><img src="http://www2.phy.ntnu.edu.tw/files/album//1/cache.5_dd34451d.jpg.w120_h120.jpg" width="120" height="120" alt="1" title="1" /></a><a href="/photo/pic.php?CID=1&amp;Album_ID=2&amp;Photo_ID=6"><img src="http://www2.phy.ntnu.edu.tw/files/album//1/cache.6_95af95bf.jpg.w120_h120.jpg" width="120" height="120" alt="2" title="2" /></a><a href="/photo/pic.php?CID=1&amp;Album_ID=2&amp;Photo_ID=7"><img src="http://www2.phy.ntnu.edu.tw/files/album//1/cache.7_54a41121.jpg.w120_h120.jpg" width="120" height="120" alt="3" title="3" /></a><a href="/photo/pic.php?CID=1&amp;Album_ID=2&amp;Photo_ID=8"><img src="http://www2.phy.ntnu.edu.tw/files/album//1/cache.8_35085e17.jpg.w120_h120.jpg" width="120" height="120" alt="4" title="4" /></a></div></div>
+
+<div id="boxExtB">
+	<h2> 單位簡介 </h2><div id="ppp"><p>本系的重點研究領域包括：凝態物理、光電與奈米科學、高能與粒子物理、軟凝態物理與生物物理、原分子光學物理、及物理科學教育等。本系前身為臺灣省立師範學院理化系物理組，成立於民國三十五年(1946年)本校創校之始。民國五十一年(1962年)本系獨立成系，民國六十三年(1974年)成立物理研究所碩士班，民國八十年(1991年)成立研究所博士班。長久以來，本系肩負著培育臺灣中等學校物理科師資的重任，但也不忘在物理學術研究上求新求進步。至今本系培育出的學術人才已有一位中研院院士及近百位中研院研究員及大學教授，各行各業的高科技人材更是不勝枚舉。民國八十三年師資培育法改制後，本系已升級為尖端學術研究、科技應用研發、及中學師資培育三者齊備的系所。<br /></p></div><div class="note"><a href="/news/news.php?Sn=628">MORE</a></div>	
+</div>
+
+<div id="boxExtC">
+				
+			<script src="/inc/js/jquery/jquery.innerfade.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				var $j = jQuery.noConflict(); 
+				$j(document).ready(
+					function(){
+						$j('ul.ADportfolio').innerfade({
+				speed: 'slow',
+				timeout: 4000,
+				type: 'sequence',
+				containerheight: '2em'
+						});
+				});		
+			</script>
+			<div id="AD1"><ul class="ADportfolio"><li><a target="_blank" href="http://home.phy.ntnu.edu.tw" rel="noopener noreferrer"><img src="/files/adplay/8_adbdb370.png" width="260" height="80" alt="國立臺灣師範大學物理系系友會" title="國立臺灣師範大學物理系系友會" /></a></li><li><a target="_blank" href="http://home.phy.ntnu.edu.tw/onlinepay" rel="noopener noreferrer"><img src="/files/adplay/10_dd609ed6.png" width="260" height="80" alt="系友會線上小額捐款" title="系友會線上小額捐款" /></a></li></ul><ul class="ADportfolio"><li class="ADportfolio_2"><a target="_blank" href="http://typt.phy.ntnu.edu.tw/" rel="noopener noreferrer"><img src="/files/adplay/2_c8e8536c.png" width="260" height="80" alt="徐有庠盃-臺灣青年學生物理辯論競賽" title="徐有庠盃-臺灣青年學生物理辯論競賽" /></a></li></ul><ul class="ADportfolio"><li class="ADportfolio_2"><a target="_blank" href="http://phy.ntnu.edu.tw/ipho/" rel="noopener noreferrer"><img src="/files/adplay/1_ab9de772.jpg" width="180" height="60" alt="國際物理奧林匹亞競賽" title="國際物理奧林匹亞競賽" /></a></li></ul><ul class="ADportfolio"><li class="ADportfolio_2"><a target="_blank" href="http://140.122.141.8/bosonclub" rel="noopener noreferrer"><img src="/files/adplay/12_16af103e.png" width="260" height="80" alt="BOSON CLUB" title="BOSON CLUB" /></a></li></ul><ul class="ADportfolio"><li class="ADportfolio_2"><a target="_blank" href="http://phys170.phy.ntnu.edu.tw/booked.html" rel="noopener noreferrer"><img src="/files/adplay/13_e23b4a16.png" width="260" height="80" alt="公用場地與儀器設施預約系統" title="公用場地與儀器設施預約系統" /></a></li></ul><ul class="ADportfolio"><li class="ADportfolio_2"><a target="_blank" href="http://phys170.phy.ntnu.edu.tw/Internship/index.php" rel="noopener noreferrer"><img src="/files/adplay/14_38f04b0f.jpg" width="260" height="80" alt="學生實習專區" title="學生實習專區" /></a></li></ul></div></div>
+</div>
+<script type="text/javascript" src="/inc/js/jquery/jquery.cycle3.03.all.min.js"></script>
+<!-- <script type="text/javascript" src="inc/js/jquery/jquery.cycle.all.js"></script> -->
+<script type="text/javascript">
+	var $i = jQuery.noConflict();
+	$i(document).ready(function(){
+		$i('body').prepend('<div class="top_banner"><div class="top_banner2"><a href="http://www.ntnu.edu.tw" class="link_ntnu">國立臺灣師範大學</a><a href="/" class="link_home">國立臺灣師範大學 物理學系</a></div></div>');
+		if ( $i('#ADB ul li').size() > 0 )
+ 			 $i('#pageheader2 > a > img').css('display','none');
+
+
+ 			if ($i('.block-banner img').size() > 0) {
+		$i('.block-banner').before('<div id="next">');
+		$i('.block-banner').before('<div id="prev">');
+		$i('.block-banner').before('<div class="caption">');
+
+		$i('.block-banner').cycle({ 
+		   	fx: 'fade',
+		    speed: 'fast', 
+		    timeout: 10000, 
+		   	next: '#next', 
+	    	prev: '#prev',
+	    	// before: function () {
+      //       	$i('.caption').html($i(this).attr('alt'));
+      //       	$i('.caption').html($i(this).find('img').attr('alt'));
+      //       }
+		});
+    }
+
+	});
+</script>
+</div>
+		<div id="footer">
+			<div id="footer2">
+				<div id="footer3">
+
+				<!-- 網站版權宣告 -->
+<div id="footer_address">
+
+<p>本網站著作權屬於國立臺灣師範大學 物理學系，請詳見<a href="/do/termofuse.php">使用規則</a>。<br />
+
+電話：(02) 7749-6010　傳真：(02) 2932-6408<br />
+地址：11677台北市文山區汀州路四段88號<br />
+E-mail：dep@phy.ntnu.edu.tw | <a href="http://www2.phy.ntnu.edu.tw/members/super_pages.php?ID=ta">聯絡我們</a><br />
+
+Powered by <a href="http://www.rulingcom.com" target="_blank" rel="noopener noreferrer">RulingDigital</a>
+   </p>
+
+</div>
+
+<!-- 網站認證貼紙 -->
+
+
+<div id="counter">
+瀏覽人數：
+3715817</br>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
+</div>
+
+
+
+<div id="footer_logo">
+
+<p class="print">
+	
+	
+</p>
+</div>
+
+				
+				<div id="footer_ruling">
+					<a href="http://www.rulingcom.com/warrant.php?product_key=dfca5486198fe9c0673d5105cbfaacdb" target="_blank" rel="noopener noreferrer"><img src="/css/ruling_logo.jpg" longdesc="/msg.php?s=Warrant" title="Warrant" alt="Warrant" /></a><a href="/msg.php?s=Warrant"></a>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	
+</div></div>
+<div id="extradiv"></div><div id="extradiv2"></div><div id="extradiv3"></div><div id="extradiv4"></div><div id="extradiv5"></div><div id="extradiv6"></div>
+
+
+<img src="/inc/pseudo-cron-img.php" width="1" height="1" alt="cron" />
+<img src="/rpc_app/rpc_web_use_log.php" width="1" height="1" alt="web_use_log" />
+<!-- 本站程式版本 RulingSite-S 2.4 Release from Revision 969 -->
+<!-- 此頁執行時間 0.297937870026 秒 -->
+</body>
+</html>
+�� �)      _kk�_kk�B#�I           :http://www2.phy.ntnu.edu.tw/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 15:31:05 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Last-Modified: Wed, 23 Sep 2020 15:31:05 GMT
+Cache-Control: private
+Pragma: no-cache
+Content-Type: text/html
+ original-response-headers Date: Wed, 23 Sep 2020 15:31:05 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Last-Modified: Wed, 23 Sep 2020 15:31:05 GMT
+Cache-Control: private
+Pragma: no-cache
+Set-Cookie: RSS2_d5e75115521c50632a51b72e6ce540b4=s0uu9mtlicaiq2t5pn8p4s0pe2; path=/
+Set-Cookie: Visit=yes; expires=Wed, 23-Sep-2020 16:31:05 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+ uncompressed-len 0 predictor::resource-count 51 predictor::http://www2.phy.ntnu.edu.tw/css/general.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/wforms.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/editor.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/main.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/module/calendar.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/zh-tw.css 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/prototype/prototype.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/scriptaculous.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/jquery/jquery.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/wforms/wforms.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/wforms/localization-tw.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/sorttable.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/jquery/jquery.innerfade.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adbannerplay/1_83bd66f6.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/logo.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/news/1783_8a6855cc.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/news/1752_64aad3d6.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/news/1867_8007ccf0.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/news/1834_24d4f43c.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/album//1/cache.5_dd34451d.jpg.w120_h120.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/album//1/cache.6_95af95bf.jpg.w120_h120.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/album//1/cache.7_54a41121.jpg.w120_h120.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/album//1/cache.8_35085e17.jpg.w120_h120.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/8_adbdb370.png 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/10_dd609ed6.png 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/2_c8e8536c.png 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/1_ab9de772.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/12_16af103e.png 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/13_e23b4a16.png 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/files/adplay/14_38f04b0f.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/jquery/jquery.cycle3.03.all.min.js 1,1,1600875463,4097 net-response-time-onstart 402 net-response-time-onstop 632 predictor::http://jigsaw.w3.org/css-validator/images/vcss 1,1,1600875463,4096 predictor::http://jigsaw.w3.org/css-validator/images/vcss-blue 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/ruling_logo.jpg 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/pseudo-cron-img.php 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/rpc_app/rpc_web_use_log.php 1,1,1600875463,4097 predictor::http://fonts.googleapis.com/css?family=Open+Sans:300,400,700 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/rwd_r2.css 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/builder.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/effects.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/dragdrop.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/controls.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/slider.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/inc/js/scriptaculous/sound.js 1,1,1600875463,4097 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/bg.jpg 1,1,1600875463,4096 predictor::https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/bannertitle_bg.png 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/top_banner.jpg 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/arrow_right.png 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/arrow_left.png 1,1,1600875463,4096 predictor::http://www2.phy.ntnu.edu.tw/css/cssimg/menu_hover.png 1,1,1600875463,4096   f�

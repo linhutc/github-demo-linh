@@ -1,0 +1,19 @@
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+upstart: update-notifier-crash (/var/crash/_usr_lib_android-sdk_platform-tools_adb.1000.crash) main process (5032) terminated with status 1
+upstart: bamfdaemon main process (1607) killed by TERM signal
+upstart: unity-settings-daemon main process (1698) killed by HUP signal
+upstart: indicator-bluetooth main process (1769) killed by TERM signal
+upstart: indicator-power main process (1772) killed by TERM signal
+upstart: indicator-datetime main process (1775) killed by TERM signal
+upstart: indicator-sound main process (1778) killed by HUP signal
+upstart: indicator-printers main process (1783) killed by TERM signal
+upstart: indicator-session main process (1786) killed by TERM signal
+upstart: indicator-application main process (1810) killed by TERM signal
+upstart: indicator-application pre-stop process (5078) killed by TERM signal
+upstart: gnome-session (Unity) pre-stop process (5079) killed by TERM signal
+upstart: unity-panel-service main process (1720) killed by HUP signal
+upstart: unity7 main process (1809) terminated with status 1
+upstart: gnome-session (Unity) main process (1709) killed by HUP signal
+upstart: Disconnected from notified D-Bus bus
+upstart: hud main process (1696) killed by SEGV signal

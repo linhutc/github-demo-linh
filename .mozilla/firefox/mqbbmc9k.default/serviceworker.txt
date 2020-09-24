@@ -1,0 +1,11 @@
+8
+
+https://www.howkteam.vn/
+https://www.howkteam.vn/service-worker.js
+false
+{62b625fc-315a-4bd1-a022-8cd87546bf1d}
+0
+1600853565075540
+1600853565169934
+1600853564802652
+#

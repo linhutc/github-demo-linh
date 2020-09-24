@@ -1,0 +1,10 @@
+Thứ tư, 23 Tháng chín năm 2020 00:23:19 +07 crash report /var/crash/_usr_lib_android-sdk_platform-tools_adb.1000.crash detected
+Traceback (most recent call last):
+  File "/usr/share/apport/apport-gtk", line 597, in <module>
+    app.run_argv()
+  File "/usr/lib/python3/dist-packages/apport/ui.py", line 688, in run_argv
+    return self.run_crashes()
+  File "/usr/lib/python3/dist-packages/apport/ui.py", line 239, in run_crashes
+    logind_session[1] > self.report.get_timestamp():
+TypeError: unorderable types: float() > NoneType()
+Thứ tư, 23 Tháng chín năm 2020 13:10:08 +07 crash report /var/crash/_usr_lib_android-sdk_platform-tools_adb.1000.crash detected

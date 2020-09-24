@@ -1,0 +1,296 @@
+<div class="bg-gray-lighter" id="sidebarBranchList">
+    <div class="list-group">
+        <div class="input-group p-15">
+            <input type="text" id="sidebarInputSearchBranchMenu" class="form-control" placeholder="Tìm...">
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+        </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-7" onclick="Kteam.renderSidebarMenuCat(7);">
+                    <a class="text-uppercase" href="/learn/lap-trinh-7">
+                        Lập tr&#236;nh
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-7" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-5" onclick="Kteam.renderSidebarMenuCourse(5);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-c-net-7-5">
+                                    Lập tr&#236;nh C# .Net
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-8" onclick="Kteam.renderSidebarMenuCourse(8);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-c-7-8">
+                                    Lập tr&#236;nh C++
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-9" onclick="Kteam.renderSidebarMenuCourse(9);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-android-7-9">
+                                    Lập tr&#236;nh Android
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-12" onclick="Kteam.renderSidebarMenuCourse(12);">
+                                <a class="" href="/learn/lap-trinh/dieu-truong-hoc-khong-day-7-12">
+                                    Điều trường học kh&#244;ng dạy
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-17" onclick="Kteam.renderSidebarMenuCourse(17);">
+                                <a class="" href="/learn/lap-trinh/thu-thuat-lap-trinh-7-17">
+                                    Thủ thuật lập tr&#236;nh
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-18" onclick="Kteam.renderSidebarMenuCourse(18);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-java-7-18">
+                                    Lập tr&#236;nh Java
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-20" onclick="Kteam.renderSidebarMenuCourse(20);">
+                                <a class="" href="/learn/lap-trinh/unity3d-7-20">
+                                    Unity3D
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-23" onclick="Kteam.renderSidebarMenuCourse(23);">
+                                <a class="" href="/learn/lap-trinh/phan-tich-thiet-ke-7-23">
+                                    Ph&#226;n t&#237;ch thiết kế
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-37" onclick="Kteam.renderSidebarMenuCourse(37);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-python-7-37">
+                                    Lập tr&#236;nh Python
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-40" onclick="Kteam.renderSidebarMenuCourse(40);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-php-7-40">
+                                    Lập tr&#236;nh PHP
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-42" onclick="Kteam.renderSidebarMenuCourse(42);">
+                                <a class="" href="/learn/lap-trinh/javascript-website-7-42">
+                                    JavaScript - (Website)
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-44" onclick="Kteam.renderSidebarMenuCourse(44);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-front-end-7-44">
+                                    Lập tr&#236;nh Front-End
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-45" onclick="Kteam.renderSidebarMenuCourse(45);">
+                                <a class="" href="/learn/lap-trinh/lap-trinh-mobile-7-45">
+                                    Lập tr&#236;nh Mobile
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-11" onclick="Kteam.renderSidebarMenuCat(11);">
+                    <a class="text-uppercase" href="/learn/microsoft-office-2016-11">
+                        Microsoft Office 2016
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-11" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-6" onclick="Kteam.renderSidebarMenuCourse(6);">
+                                <a class="" href="/learn/microsoft-office-2016/microsoft-word-2016-11-6">
+                                    Microsoft Word 2016
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-16" onclick="Kteam.renderSidebarMenuCourse(16);">
+                                <a class="" href="/learn/microsoft-office-2016/microsoft-excel-2016-11-16">
+                                    Microsoft Excel 2016
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-19" onclick="Kteam.renderSidebarMenuCourse(19);">
+                                <a class="" href="/learn/microsoft-office-2016/microsoft-powerpoint-2016-11-19">
+                                    Microsoft PowerPoint 2016
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-13" onclick="Kteam.renderSidebarMenuCat(13);">
+                    <a class="text-uppercase" href="/learn/it-phan-mem-13">
+                        IT &amp; Phần mềm
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-13" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-14" onclick="Kteam.renderSidebarMenuCourse(14);">
+                                <a class="" href="/learn/it-phan-mem/thu-thuat-may-tinh-13-14">
+                                    Thủ thuật m&#225;y t&#237;nh
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-15" onclick="Kteam.renderSidebarMenuCourse(15);">
+                                <a class="" href="/learn/it-phan-mem/huong-dan-cai-dat-13-15">
+                                    Hướng dẫn c&#224;i đặt
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-36" onclick="Kteam.renderSidebarMenuCourse(36);">
+                                <a class="" href="/learn/it-phan-mem/bao-mat-may-tinh-13-36">
+                                    Bảo mật m&#225;y t&#237;nh
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-43" onclick="Kteam.renderSidebarMenuCourse(43);">
+                                <a class="" href="/learn/it-phan-mem/phan-cung-bao-mat-13-43">
+                                    Phần cứng &amp; Bảo mật
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-21" onclick="Kteam.renderSidebarMenuCat(21);">
+                    <a class="text-uppercase" href="/learn/do-hoa-hinh-anh-21">
+                        Đồ họa h&#236;nh ảnh
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-21" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-22" onclick="Kteam.renderSidebarMenuCourse(22);">
+                                <a class="" href="/learn/do-hoa-hinh-anh/adobe-photoshop-lightroom-21-22">
+                                    Adobe Photoshop LightRoom
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-26" onclick="Kteam.renderSidebarMenuCat(26);">
+                    <a class="text-uppercase" href="/learn/kinh-te-26">
+                        Kinh tế
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-26" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-27" onclick="Kteam.renderSidebarMenuCourse(27);">
+                                <a class="" href="/learn/kinh-te/quan-tri-kinh-doanh-26-27">
+                                    Quản trị kinh doanh
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-28" onclick="Kteam.renderSidebarMenuCourse(28);">
+                                <a class="" href="/learn/kinh-te/ke-toan-26-28">
+                                    Kế to&#225;n
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-29" onclick="Kteam.renderSidebarMenuCourse(29);">
+                                <a class="" href="/learn/kinh-te/nhan-su-26-29">
+                                    Nh&#226;n sự
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-30" onclick="Kteam.renderSidebarMenuCourse(30);">
+                                <a class="" href="/learn/kinh-te/seo-26-30">
+                                    SEO
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-31" onclick="Kteam.renderSidebarMenuCourse(31);">
+                                <a class="" href="/learn/kinh-te/marketing-26-31">
+                                    Marketing
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-32" onclick="Kteam.renderSidebarMenuCat(32);">
+                    <a class="text-uppercase" href="/learn/ngoai-ngu-32">
+                        Ngoại ngữ
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-32" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-33" onclick="Kteam.renderSidebarMenuCourse(33);">
+                                <a class="" href="/learn/ngoai-ngu/tieng-anh-32-33">
+                                    Tiếng anh
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-34" onclick="Kteam.renderSidebarMenuCat(34);">
+                    <a class="text-uppercase" href="/learn/ky-nang-mem-34">
+                        Kỹ năng mềm
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-34" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-35" onclick="Kteam.renderSidebarMenuCourse(35);">
+                                <a class="" href="/learn/ky-nang-mem/ky-nang-mem-34-35">
+                                    Kỹ năng mềm
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+                <div class="list-group-item list-group-item-action border-0 pr-50 branch-menu-item-49" onclick="Kteam.renderSidebarMenuCat(49);">
+                    <a class="text-uppercase" href="/learn/tin-tuc-49">
+                        Tin tức
+                    </a>
+                    <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                </div>
+                <div id="sidebarCatMenuHidden-49" class="d-none">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0 pr-50 cat-menu-item-50" onclick="Kteam.renderSidebarMenuCourse(50);">
+                                <a class="" href="/learn/tin-tuc/tin-tuc-cong-nghe-49-50">
+                                    Tin tức c&#244;ng nghệ
+                                </a>
+                                <a href="#" class="position-absolute navbar-expand-right d-flex"><span class="btn btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+                            </div>
+                    </div>
+                </div>
+
+    </div>
+</div>
+
+
+<script>
+    $('#sidebarBranchList').slimScroll({
+        height: "100%"
+    });
+    Kteam.filterHtml("#sidebarInputSearchBranchMenu", "#sidebarBranchList > .list-group > div.list-group-item");
+</script>#���      _k2_k2B#��_k�   6    :https://www.howkteam.vn/common/sidebarbranchesdesktop necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: public, max-age=120
+Content-Type: text/html; charset=utf-8
+Expires: Wed, 23 Sep 2020 09:34:33 GMT
+Last-Modified: Wed, 23 Sep 2020 08:34:33 GMT
+Vary: *
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:32 GMT
+Content-Length: 23797
+ original-response-headers Cache-Control: public, max-age=120
+Content-Type: text/html; charset=utf-8
+Expires: Wed, 23 Sep 2020 09:34:33 GMT
+Last-Modified: Wed, 23 Sep 2020 08:34:33 GMT
+Vary: *
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:32 GMT
+Content-Length: 23797
+ uncompressed-len 0 net-response-time-onstart 216 net-response-time-onstop 283   \�

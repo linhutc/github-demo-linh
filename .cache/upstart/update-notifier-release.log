@@ -1,0 +1,8 @@
+Thứ ba, 22 Tháng chín năm 2020 23:21:45 +07 new release available
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Thứ tư, 23 Tháng chín năm 2020 13:10:08 +07 new release available
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting

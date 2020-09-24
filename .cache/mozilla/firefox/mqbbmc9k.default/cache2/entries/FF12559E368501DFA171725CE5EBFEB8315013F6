@@ -1,0 +1,526 @@
+body{
+	min-width: 1024px;
+}
+#linklist3 #menu1 {
+	display: block;
+}
+#linklist3 .menu_toggle {
+	display: none;
+}
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 480px) {
+	/* page */
+	html {
+		background: #fff !important;
+	}
+	body {
+		background: #fff !important;
+		min-width: 0;
+	}
+	#container {
+		background: #fff3e0 !important;
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	#pageheader2, #main2, #linklist2, #footer2 {
+		width: 100% !important;
+	}
+	#container2 {
+		background: none !important;
+	}
+	#pageheader {
+		overflow: hidden !important;
+    	width: 100% !important;
+    	background-image: url(rwd_stuff/pageheader_bg.jpg);
+    	color: #674929;
+    	height: auto !important;
+	}
+	#pageheader img{
+		top: 25% !important;
+	}
+	#container .box-banner {
+		display: none !important;
+	}
+	#ADB {
+		display: none !important;
+	}
+	#pageheader2 {
+		background: none !important;
+		padding: 0 !important;
+	}
+	#pageheader2 > * {
+		/*display: none;*/
+	}
+	#pageheader2 #corner {
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    padding: 5px 5%;
+    position: static;
+    text-align: left;
+    width: 100%;
+    background-color: #df8e25;
+	}
+	#pageheader2 #corner a {
+		padding: 0 2px !important;
+		color: #ffffff;
+	}
+	#pageheader2 #corner a:hover {
+		text-decoration: underline !important;
+	}
+	#pageheader2 #corner span{
+		display: none;
+	}
+	#pageheader2 > a > img {
+		/*display: none;*/
+	}
+	#pageheader #pageheader2 > h1 {
+		background: none;
+		color: #333;
+		display: block;
+		font: 22px/26px 'open sans', 'å¾®è»Ÿæ­£é»‘é«”', sans-serif;
+		height: auto;
+		margin: 20px auto 30px;
+		position: static;
+		width: 90%;
+		white-space: normal;
+		text-indent: 0;
+	}
+	#pageheader #pageheader2 > h1 a {
+		display: inline;
+	}
+	#ADB {
+		/* display: none; */
+	}
+	#container #container2 #ADB {
+    display: block;
+		bottom: auto;
+		height: auto;
+		left: auto;
+		position: relative;
+		right: auto;
+		top: auto;
+    width: 100%;
+	}
+	#container #container2 #ADB * {
+		height: auto;
+		width: 100% !important;
+	}
+	#container #container2 #ADB img{
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	#container #main1 {
+		background: none;
+		margin: 0;
+		width: 100%;
+	}
+	#container #main2 {
+		background: none;
+		min-height: 500px;
+	}
+	#container #main {
+		background: none;
+		margin: 0 auto;
+		padding: 0;
+		width: 90%;
+	}
+	#main #content {
+		float: none;
+		position: relative;
+		width: 100%;
+	}
+	#main #content2 {}
+	#main #submenu {
+		background: none;
+	  float: none;
+	  margin: 0 0 20px;
+	  padding: 0;
+	  position: static;
+	  width: 100%;
+	}
+	#main #submenu_b {
+		background: none;
+	}
+	#main #submenu a{
+		font-size: 15px;
+	}
+	#main #super_pages_list, #main #submenu2, #main #recruit_list {
+	  float: none;
+	  margin: 0 0 20px;
+	  position: static !important;
+	  width: 100% !important;
+	}
+	#main #submenu2 li, #main #super_pages_list li, #main #recruit_list li {
+		float: none;
+	}
+	#main .ts_styled caption, #main .ts_rowsonly caption {
+		width: 100%;
+	}
+	#main .ts_styled th, #main .ts_rowsonly th, #main .ts_styled td, #main .ts_rowsonly td {
+    font-size: 15px;
+    vertical-align: top;
+    width: auto;
+	}
+	#main .PageDetails {
+		float: none;
+	}
+	#main #album_list {
+		margin: 0;
+		padding: 0;
+	}
+	#main #album_list .album {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	}
+	#main #album_list .album div {
+		margin: 0;
+	}
+	#main #album_list .album ul {
+		margin: 0 0 20px 60px;
+	}
+
+	#editor * {
+		text-align: justify;
+	}
+	#editor br {
+		clear: both;
+		display: block;
+		margin: 0 0 15px;
+	}
+	#editor img {
+	  display: block;
+	  height: auto;
+	  margin: 0 0 20px;
+	  max-width: 100%;
+	}
+
+	#accesskey_menu, #accesskey_top, #accesskey_submenu, #accesskey_content{
+	    display: none;
+	}
+	#container #calendar_large {
+		width: 100%;
+	}
+	#container #calendar_large caption {
+		width: 100%;
+	}
+	#container #extralist10 {
+	  bottom: auto;
+	  clear: both;
+	  float: none;
+	  left: auto;
+	  margin: 0 auto 20px;
+	  position: relative;
+	  right: auto;
+	  top: auto;
+	  width: 100%;
+	}
+	#container #extralist10 > div {
+		float: none;
+		display: block;
+		margin: 0 auto 20px;
+		padding: 0;
+		position: static;
+		width: 100%;
+	}
+	/* menu */
+	#container #linklist {
+		border: 0px;
+		box-sizing: border-box;
+		height: auto;
+		min-height: 50px !important;
+		margin: 0 0 30px;
+		position: static !important;
+		background-image: url(rwd_stuff/menu_bg.jpg) !important;
+		width: 100% !important;
+		color: #674929;
+	}
+	#container #linklist2 {
+		background: none !important;
+	}
+	#container #linklist3 {
+		background: none !important;
+		padding: 0;
+	}
+	/* main color = #aa2a0d */
+	#linklist3 .menu_toggle {
+		background-image: url(rwd_stuff/menu_bg.jpg);
+		box-sizing: border-box;
+		color: #fff;
+		cursor: pointer;
+		display: block;
+		font: 15px/50px 'open sans', 'å¾®è»Ÿæ­£é»‘é«”', sans-serif;
+		height: 50px;
+		text-align: right;
+		padding: 0 5%;
+		position: relative;
+		width: 100%;
+		color: #674929;
+	}
+	#linklist3 .menu_toggle:hover {
+		background-image: url(rwd_stuff/menu_bg.jpg);
+	}
+	#linklist3 .menu_toggle .toggle {
+		float: right;
+		position: relative;
+	}
+	#linklist3 .menu_toggle span {
+		padding: 0 10px 0 0;
+	}
+	#linklist3 .menu_toggle .fa {
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+	}
+	#linklist3 #menu1 {
+		border-top: 1px solid rgba(0,0,0,0.1);
+		display: none;
+		bottom: auto;
+		height: auto;
+		left: auto;
+		position: relative;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	#linklist3 #menu1 ul {
+		background: none;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		width: 100%;
+	}
+	#linklist3 #menu1 li {
+		float: none;
+		display: block;
+		height: auto;
+		list-style: none;
+		width: 100%;
+	}
+	#linklist3 #menu1 li span {
+		background: none;
+		display: inline;
+		margin: 0;
+		padding:0;
+	}
+	#linklist3 #menu1 li a {
+    background: none repeat scroll 0 0;
+    border: 0 none;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    float: none;
+    font: 15px/1.5 "open sans","å¾®è»Ÿæ­£é»‘é«”",sans-serif !important;
+    height: auto;
+    margin: 0;
+    padding: 10px 5%;
+    width: 100%;
+	}
+	#linklist3 #menu1 li a:hover {
+		background: rgba(0,0,0,0.1);
+		color: #fff;
+	}
+
+	#linklist3 #menu2 {
+		display: none;
+	}
+	#menu2 ul {}#
+	#menu2 li {}
+	#menu2 li a {}
+	#menu2 li a:hover {}
+	
+	#linklist3 #menu3 {
+		display: none;
+	}
+	#menu3 ul {}
+	#menu3 li {}
+	#menu3 li a {}
+	#menu3 li a:hover {}
+	#linklist3 #menu_login {
+		display: none;
+	}
+	#linklist3 #menu_search {
+		display: none;
+	}
+	#linklist3 #menu_service {}
+
+
+	#footer {
+		padding: 20px 0 10px;
+	}
+	#footer2 {}
+	#footer3 {
+		overflow: hidden;
+		background-color: #eedcbd;
+	}
+	#footer3 #footer_address {
+	  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	  margin: 0 auto 10px;
+	  padding: 0 0 10px;
+	  position: static;
+	  text-align: justify;
+	  width: 90%;
+	}
+	#footer3 #footer_ruling {
+    	float: left;
+    	margin: 0 0 0 5%;
+    	position: static;
+    	width: auto;
+	}
+	#footer3 #counter {
+    	float: right;
+    	margin: 0 5% 0 0;
+    	position: static;
+    	width: auto;
+	}
+	#footer3 #counter p{
+		display: none;
+	}
+	#footer3 #footer_logo {
+		display: none;
+	}
+
+	/* main */
+	#page_main #main1 {
+		background: none;
+		margin: 0;
+		width: 100%;
+	}
+	#page_main #main2 {
+		background: none;
+    min-height: 500px;
+	}
+	#page_main #main {
+		background: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+	}
+	#page_main #main #content {}
+	#page_main #main #content2 {}
+	#page_main #main #content2 > div {
+		float: none;
+		margin: 0 auto 20px;
+		width: 100%;
+	}
+	#page_main #content2 div {}
+	#page_main #content2 div ul {}
+	#page_main #content2 div li {
+    display: block !important;
+    float: none !important;
+    height: auto !important;
+    width: auto !important;
+	}
+	#page_main #content2 div li a {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	#page_main #content2 div .pic img {
+		clear: both;
+		display: block;
+		float: none;
+		height: auto;
+		margin: 0 0 10px;
+		width: 100%;
+	}
+	#page_main #content2 div .note {
+    float: none;
+    position: static;
+	}
+	#page_main #content2 div .note a {
+	}
+	body #AD1 ul {
+		height: auto !important;
+		margin: 0 0 20px !important;
+	}
+	#AD1 img {
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+	#pic_img {
+	  margin-top: 10px;
+	  width: 100%;
+	}
+	#pic_img img {
+	  padding: 0;
+	  border: 0px solid #ccc;
+	  width: 100%;
+	  height: auto;
+	}
+	body .top_banner2{
+		width: 100%;
+	}
+	
+	body .top_banner{
+		background: #4e070b url("cssimg/top_banner.jpg") no-repeat scroll 15px 50%;
+		background-size: 520px auto;
+ 	}
+  	
+	.top_banner a.link_home{
+		width: 64%;
+		left: 36%;
+	}
+	#linklist3 #menu1 #ul_menu1_0 li span ul#ul_submenu1_0{
+		display: none;
+	}
+	#linklist3 #menu1 #menu1_b #ul_menu1_0 li span div#submenu22{
+		display: none;
+	}
+	#linklist3 #menu1 #ul_menu1_0 li span a{
+		color: #674929;
+	}
+	#container div#extralist10{
+		box-shadow: none !important;
+	}
+	#boxExtB, #boxExtC{
+		background: none !important;
+	}
+	#boxLEFT {
+		box-shadow: none !important;
+	}
+	#boxLEFT #boxExtC {
+		padding: 20px 20px 0;
+	}
+	#boxExtA .photo{
+	  	position: relative !important;
+		width: 100% !important;
+		top: 20px !important;
+		left: 50% !important;
+		margin-left: -135px;
+	}
+	#boxExtA{
+		height: 305px !important;
+	}
+	body > img {
+		display: none;
+	}
+}«³®9ç­      _kkÈ_kkÉB#ÌJ_t¤º   +    :http://www2.phy.ntnu.edu.tw/css/rwd_r2.css necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2020 15:31:06 GMT
+Server: Apache
+Last-Modified: Mon, 21 Sep 2015 06:54:13 GMT
+ETag: "184bb-2462-5203c595dcf40"
+Accept-Ranges: bytes
+Content-Length: 9314
+Content-Type: text/css
+ original-response-headers Date: Wed, 23 Sep 2020 15:31:06 GMT
+Server: Apache
+Last-Modified: Mon, 21 Sep 2015 06:54:13 GMT
+ETag: "184bb-2462-5203c595dcf40"
+Accept-Ranges: bytes
+Content-Length: 9314
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/css
+ uncompressed-len 0 net-response-time-onstart 707 net-response-time-onstop 832   $b

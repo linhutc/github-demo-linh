@@ -1,0 +1,304 @@
+
+
+
+<div id="lectures-list" class="block-content pb-20" data-height="0px" data-toggle="slimscroll" data-always-visible="true">
+    <div class="list-group">
+        <div class="input-group mb-2">
+            <input type="text" id="input-search-lecture" class="form-control" placeholder="Tìm bài học...">
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+        </div>
+                <a id="lecture-1" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/gioi-thieu-ve-c-16">
+                    <span class="font-w600">01. </span>
+                    Giới thiệu về C++
+                </a>
+                <a id="lecture-2" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cai-dat-moi-truong-phat-trien-ide-visual-studio-2015-19">
+                    <span class="font-w600">02. </span>
+                    C&#224;i đặt m&#244;i trường ph&#225;t triển (IDE) Visual studio 2015
+                </a>
+                <a id="lecture-3" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/xay-dung-chuong-trinh-c-dau-tien-voi-visual-studio-2015-17">
+                    <span class="font-w600">03. </span>
+                    X&#226;y dựng chương tr&#236;nh C++ đầu ti&#234;n với Visual Studio 2015
+                </a>
+                <a id="lecture-4" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cau-truc-mot-chuong-trinh-c-structure-of-a-program-18">
+                    <span class="font-w600">04. </span>
+                    Cấu tr&#250;c một chương tr&#236;nh C++ (Structure of a program)
+                </a>
+                <a id="lecture-5" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ghi-chu-trong-c-comments-in-c-20">
+                    <span class="font-w600">05. </span>
+                    Ghi ch&#250; trong C++ (Comments in C++) 
+                </a>
+                <a id="lecture-6" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/bien-trong-c-variables-in-c-105">
+                    <span class="font-w600">06. </span>
+                    Biến trong C++ (Variables in C++) 
+                </a>
+                <a id="lecture-7" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/so-tu-nhien-va-so-cham-dong-trong-c-integer-floating-point-106">
+                    <span class="font-w600">07. </span>
+                    Số tự nhi&#234;n v&#224; Số chấm động trong C++ (Integer, Floating point)
+                </a>
+                <a id="lecture-8" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/kieu-ky-tu-trong-c-character-34">
+                    <span class="font-w600">08. </span>
+                    Kiểu k&#253; tự trong C++ (Character)
+                </a>
+                <a id="lecture-9" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/kieu-luan-ly-va-co-ban-ve-cau-dieu-kien-if-boolean-and-if-statements-35">
+                    <span class="font-w600">09. </span>
+                    Kiểu luận l&#253; v&#224; cơ bản về C&#226;u điều kiện If (Boolean and If statements)
+                </a>
+                <a id="lecture-10" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/nhap-xuat-va-dinh-dang-du-lieu-trong-c-input-and-output-36">
+                    <span class="font-w600">10. </span>
+                    Nhập, Xuất v&#224; Định dạng dữ liệu trong C++ (Input and Output)
+                </a>
+                <a id="lecture-11" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/hang-so-trong-c-constants-37">
+                    <span class="font-w600">11. </span>
+                    Hằng số trong C++ (Constants)
+                </a>
+                <a id="lecture-12" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/toan-tu-so-hoc-toan-tu-tang-giam-toan-tu-gan-so-hoc-trong-c-operators-1145">
+                    <span class="font-w600">12. </span>
+                    To&#225;n tử số học, to&#225;n tử tăng giảm, to&#225;n tử g&#225;n số học trong C++ (Operators)
+                </a>
+                <a id="lecture-13" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/toan-tu-quan-he-logic-bitwise-misc-va-do-uu-tien-toan-tu-trong-c-1146">
+                    <span class="font-w600">13. </span>
+                    To&#225;n tử quan hệ, logic, bitwise, misc v&#224; độ ưu ti&#234;n to&#225;n tử trong C++
+                </a>
+                <a id="lecture-14" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/co-ban-ve-chuoi-ky-tu-trong-c-an-introduction-to-stdstring-1273">
+                    <span class="font-w600">14. </span>
+                    Cơ bản về chuỗi k&#253; tự trong C++ (An introduction to std::string)
+                </a>
+                <a id="lecture-15" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/bien-cuc-bo-trong-c-local-variables-in-c-1286">
+                    <span class="font-w600">15. </span>
+                    Biến cục bộ trong C++ (Local variables in C++)
+                </a>
+                <a id="lecture-16" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/bien-toan-cuc-trong-c-global-variables-in-c-1291">
+                    <span class="font-w600">16. </span>
+                    Biến to&#224;n cục trong C++ (Global variables in C++)
+                </a>
+                <a id="lecture-17" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/bien-tinh-trong-c-static-variables-in-c-1300">
+                    <span class="font-w600">17. </span>
+                    Biến tĩnh trong C++ (Static variables in C++)
+                </a>
+                <a id="lecture-18" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ep-kieu-ngam-dinh-trong-c-implicit-type-conversion-in-c-1316">
+                    <span class="font-w600">18. </span>
+                    &#201;p kiểu ngầm định trong C++ (Implicit type conversion in C++)
+                </a>
+                <a id="lecture-19" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ep-kieu-tuong-minh-trong-c-explicit-type-conversion-in-c-1317">
+                    <span class="font-w600">19. </span>
+                    &#201;p kiểu tường minh trong C++ (Explicit type conversion in C++)
+                </a>
+                <a id="lecture-20" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/co-ban-ve-ham-va-gia-tri-tra-ve-basic-of-functions-and-return-values-1339">
+                    <span class="font-w600">20. </span>
+                    Cơ bản về H&#224;m v&#224; Gi&#225; trị trả về (Basic of functions and return values)
+                </a>
+                <a id="lecture-21" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/truyen-gia-tri-cho-ham-passing-arguments-by-value-1340">
+                    <span class="font-w600">21. </span>
+                    Truyền Gi&#225; Trị cho H&#224;m (Passing Arguments by Value)
+                </a>
+                <a id="lecture-22" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/truyen-tham-chieu-cho-ham-passing-arguments-by-reference-1341">
+                    <span class="font-w600">22. </span>
+                    Truyền Tham Chiếu cho H&#224;m (Passing Arguments by Reference)
+                </a>
+                <a id="lecture-23" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/tien-khai-bao-va-dinh-nghia-ham-forward-declarations-and-definitions-of-functions-1342">
+                    <span class="font-w600">23. </span>
+                    Tiền khai b&#225;o v&#224; Định nghĩa H&#224;m (Forward declarations and Definitions of Functions)
+                </a>
+                <a id="lecture-24" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/gioi-thieu-ve-cau-truc-dieu-khien-control-flow-introduction-1343">
+                    <span class="font-w600">24. </span>
+                    Giới thiệu về cấu tr&#250;c điều khiển (Control flow introduction)
+                </a>
+                <a id="lecture-25" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cau-dieu-kien-if-va-toan-tu-dieu-kien-if-statements-and-conditional-operator-1344">
+                    <span class="font-w600">25. </span>
+                    C&#226;u điều kiện If v&#224; To&#225;n tử điều kiện (If statements and Conditional operator)
+                </a>
+                <a id="lecture-26" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cau-dieu-kien-switch-trong-c-switch-statements-1345">
+                    <span class="font-w600">26. </span>
+                    C&#226;u điều kiện Switch trong C++ (Switch statements)
+                </a>
+                <a id="lecture-27" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cau-lenh-goto-trong-c-goto-statements-1366">
+                    <span class="font-w600">27. </span>
+                    C&#226;u lệnh Goto trong C++ (Goto statements)
+                </a>
+                <a id="lecture-28" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/vong-lap-while-trong-c-while-statements-1368">
+                    <span class="font-w600">28. </span>
+                    V&#242;ng lặp While trong C++ (While statements)
+                </a>
+                <a id="lecture-29" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/vong-lap-do-while-trong-c-do-while-statements-1371">
+                    <span class="font-w600">29. </span>
+                    V&#242;ng lặp Do while trong C++ (Do while statements)
+                </a>
+                <a id="lecture-30" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/vong-lap-for-trong-c-for-statements-1372">
+                    <span class="font-w600">30. </span>
+                    V&#242;ng lặp For trong C++ (For statements)
+                </a>
+                <a id="lecture-31" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/tu-khoa-break-and-continue-trong-c-1375">
+                    <span class="font-w600">31. </span>
+                    Từ kh&#243;a Break and continue trong C++
+                </a>
+                <a id="lecture-32" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/phat-sinh-so-ngau-nhien-trong-c-random-number-generation-1376">
+                    <span class="font-w600">32. </span>
+                    Ph&#225;t sinh số ngẫu nhi&#234;n trong C++ (Random number generation)
+                </a>
+                <a id="lecture-33" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/mang-1-chieu-trong-c-arrays-1377">
+                    <span class="font-w600">33. </span>
+                    Mảng 1 chiều trong C++ (Arrays)
+                </a>
+                <a id="lecture-34" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cac-thao-tac-tren-mang-mot-chieu-1378">
+                    <span class="font-w600">34. </span>
+                    C&#225;c thao t&#225;c tr&#234;n Mảng một chiều
+                </a>
+                <a id="lecture-35" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/mang-2-chieu-trong-c-two-dimensional-arrays-1381">
+                    <span class="font-w600">35. </span>
+                    Mảng 2 chiều trong C++ (Two-dimensional arrays)
+                </a>
+                <a id="lecture-36" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cac-thao-tac-tren-mang-2-chieu-1382">
+                    <span class="font-w600">36. </span>
+                    C&#225;c thao t&#225;c tr&#234;n Mảng 2 chiều
+                </a>
+                <a id="lecture-37" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/mang-ky-tu-trong-c-c-style-strings-1383">
+                    <span class="font-w600">37. </span>
+                    Mảng k&#253; tự trong C++ (C-style strings)
+                </a>
+                <a id="lecture-38" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cac-thao-tac-tren-mang-ky-tu-c-style-strings-1384">
+                    <span class="font-w600">38. </span>
+                    C&#225;c thao t&#225;c tr&#234;n Mảng k&#253; tự (C-style strings)
+                </a>
+                <a id="lecture-39" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/tu-khoa-auto-trong-c11the-auto-keyword-2697">
+                    <span class="font-w600">39. </span>
+                    Từ kh&#243;a auto trong C++11.(The auto keyword)
+                </a>
+                <a id="lecture-40" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/vong-lap-for-each-trong-c11-for-each-loops-2700">
+                    <span class="font-w600">40. </span>
+                    V&#242;ng lặp for each trong C++11 (For each loops)
+                </a>
+                <a id="lecture-41" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/lop-dung-san-array-trong-c11-2701">
+                    <span class="font-w600">41. </span>
+                    Lớp dựng sẵn Array trong C++11
+                </a>
+                <a id="lecture-42" class="list-group-item list-group-item-action border-0 active" href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714">
+                    <span class="font-w600">42. </span>
+                    Con trỏ cơ bản trong C++
+                </a>
+                <a id="lecture-43" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-null-trong-c-null-pointers-2721">
+                    <span class="font-w600">43. </span>
+                    Con trỏ NULL trong C++ (NULL pointers)
+                </a>
+                <a id="lecture-44" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-va-mang-trong-c-pointers-and-arrays-2725">
+                    <span class="font-w600">44. </span>
+                    Con trỏ v&#224; mảng trong C++ (Pointers and arrays)
+                </a>
+                <a id="lecture-45" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cac-phep-toan-tren-con-tro-va-chi-muc-mang-trong-c-pointers-and-arrays-2733">
+                    <span class="font-w600">45. </span>
+                    C&#225;c ph&#233;p to&#225;n tr&#234;n Con trỏ v&#224; Chỉ mục mảng trong C++ (Pointers and arrays)
+                </a>
+                <a id="lecture-46" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cap-phat-dong-trong-c-dynamic-memory-allocation-2734">
+                    <span class="font-w600">46. </span>
+                    Cấp ph&#225;t động trong C++ (Dynamic memory allocation).
+                </a>
+                <a id="lecture-47" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/cap-phat-mang-dong-dynamically-allocating-arrays-2743">
+                    <span class="font-w600">47. </span>
+                    Cấp ph&#225;t mảng động (Dynamically allocating arrays)
+                </a>
+                <a id="lecture-48" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-hang-trong-c-2764">
+                    <span class="font-w600">48. </span>
+                    Con trỏ &amp; Hằng trong C++
+                </a>
+                <a id="lecture-49" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/bien-tham-chieu-trong-creference-variables-2790">
+                    <span class="font-w600">49. </span>
+                    Biến tham chiếu trong C++.(Reference variables) 
+                </a>
+                <a id="lecture-50" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-void-void-pointers-3812">
+                    <span class="font-w600">50. </span>
+                    Con trỏ void (Void pointers)
+                </a>
+                <a id="lecture-51" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-tro-den-con-tro-pointers-to-pointers-3857">
+                    <span class="font-w600">51. </span>
+                    Con trỏ trỏ đến con trỏ (Pointers to pointers)
+                </a>
+                <a id="lecture-52" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/co-ban-ve-lop-vector-3858">
+                    <span class="font-w600">52. </span>
+                    Cơ bản về lớp Vector
+                </a>
+                <a id="lecture-53" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/truyen-dia-chi-cho-ham-passing-arguments-by-address-3875">
+                    <span class="font-w600">53. </span>
+                    Truyền địa chỉ cho h&#224;m (Passing arguments by address)
+                </a>
+                <a id="lecture-54" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ham-tra-ve-gia-tri-tham-chieu-va-dia-chi-trong-cvalue-reference-and-address-3889">
+                    <span class="font-w600">54. </span>
+                    H&#224;m trả về gi&#225; trị, tham chiếu v&#224; địa chỉ trong C++(value, reference, and address)
+                </a>
+                <a id="lecture-55" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ham-noi-tuyen-trong-c-inline-functions-3894">
+                    <span class="font-w600">55. </span>
+                    H&#224;m nội tuyến trong C++ (Inline functions)
+                </a>
+                <a id="lecture-56" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/nap-chong-ham-trong-c-function-overloading-3895">
+                    <span class="font-w600">56. </span>
+                    Nạp chồng h&#224;m trong C++ (Function overloading)
+                </a>
+                <a id="lecture-57" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/ham-co-doi-so-mac-dinh-trong-c-default-arguments-3902">
+                    <span class="font-w600">57. </span>
+                    H&#224;m c&#243; đối số mặc định trong C++ (Default arguments)
+                </a>
+                <a id="lecture-58" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-ham-trong-c-function-pointers-3916">
+                    <span class="font-w600">58. </span>
+                    Con trỏ h&#224;m trong C++ (Function pointers)
+                </a>
+                <a id="lecture-59" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/de-quy-trong-c-recursion-3966">
+                    <span class="font-w600">59. </span>
+                     Đệ quy trong C++ (Recursion)
+                </a>
+                <a id="lecture-60" class="list-group-item list-group-item-action border-0 " href="/course/khoa-hoc-lap-trinh-c-can-ban/khuon-mau-ham-trong-c-function-templates-3967">
+                    <span class="font-w600">60. </span>
+                    Khu&#244;n mẫu h&#224;m trong C++ (Function templates)
+                </a>
+
+    </div>
+</div>
+
+            <input type="hidden" id="nextLecture" value="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-null-trong-c-null-pointers-2721" />
+            <input type="hidden" id="prevLecture" value="/course/khoa-hoc-lap-trinh-c-can-ban/lop-dung-san-array-trong-c11-2701" />
+
+<script>
+    $('#lectures-list').slimScroll({
+        height: ($(".auto-resizable-iframe").height() - 56) + "px"
+    });
+
+    $('.auto-resizable-iframe').on('widthChanged', function () {
+        var height = $(this).height();
+        $('#lectures-list').slimScroll({
+            height: (height - 56) + "px"
+        });
+    });
+
+    Kteam.filterHtml("#input-search-lecture", "#lectures-list a");
+
+    // load lecture button
+    if ($("#nextLecture").length) {
+        $(".btn-nextLecture").attr("href", $("#nextLecture").val());
+    } else {
+        $(".btn-nextLecture").addClass("disabled");
+    }
+    if ($("#prevLecture").length) {
+        $(".btn-prevLecture").attr("href", $("#prevLecture").val());
+    } else {
+        $(".btn-prevLecture").addClass("disabled");
+    }
+    if ($(".btn-startLecture").length) {
+        $(".btn-startLecture").attr("href", $("#lecture-1").attr("href"));
+    }
+</script><kXr��      _k2_k2B#��       C    :https://www.howkteam.vn/learn/lecturelist?courseId=4&activeId=2714 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:32 GMT
+Content-Length: 22679
+ original-response-headers Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:32 GMT
+Content-Length: 22679
+ uncompressed-len 0 net-response-time-onstart 194 net-response-time-onstop 247   X�

@@ -1,0 +1,18 @@
+logrotate state -- version 2
+"/home/linh/.cache/upstart/gpg-agent.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/at-spi2-registryd.log" 2020-9-22-23:12:55
+"/home/linh/.cache/upstart/upstart-event-bridge.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/update-notifier-release.log" 2020-9-23-13:0:0
+"/home/linh/.cache/upstart/update-notifier-crash-_var_crash__usr_lib_android-sdk_platform-tools_adb.1000.crash.log" 2020-9-23-13:0:0
+"/home/linh/.cache/upstart/unity-panel-service.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/gnome-keyring-ssh.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/update-notifier-crash-_var_crash__usr_share_apport_apport-gtk.1000.crash.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/dbus.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/update-notifier-crash-_var_crash__usr_lib_i386-linux-gnu_hud_hud-service.1000.crash.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/indicator-sound.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/window-stack-bridge.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/unity-settings-daemon.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/unity7.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/hud.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/ssh-agent.log" 2020-9-23-13:11:8
+"/home/linh/.cache/upstart/bamfdaemon.log" 2020-9-22-23:12:55

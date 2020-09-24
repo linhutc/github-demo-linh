@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title data-title="Con trỏ cơ bản trong C++">Con trỏ cơ bản trong C++ | How Kteam</title>
+<meta name="title" content="Con trỏ cơ bản trong C++ | Website hướng dẫn lập trình miễn phí | How Kteam | Free Education" />
+<meta name="description" content="Con trỏ cơ bản trong C++" />
+<meta name="keywords" content="Con trỏ cơ bản trong C++" />
+
+<meta name="copyright" content="Howkteam">
+<meta name="author" content="Howkteam">
+<meta name="distribution" content="Global">
+<meta name="ROBOTS" content="INDEX, FOLLOW" />
+<meta name="google-site-verification" content="Efggt63jNjZKcDAW8mcgYbqfPYDkTjaelBXcH4N5X2A" />
+
+<meta name="twitter:card" content="summary" />
+<meta property="og:site_name" name="twitter:domain" content="www.howkteam.com" />
+<meta property="og:title" name="twitter:title" content="Con trỏ cơ bản trong C++ | Website hướng dẫn lập trình miễn phí | How Kteam | Free Education" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:url" content="https://www.howkteam.vn/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714">
+<meta property="og:description" name="twitter:description" content="Con trỏ cơ bản trong C++" />
+    <meta property="og:image" name="twitter:image" content="https://f.howkteam.vn/Upload/cke/images/1_LOGO%20SHOW%20WEB/2_CPlusPlus/1_CPlusPlus%20C%C6%A1%20b%E1%BA%A3n/CPP%20Basic%20howkteam%2042.jpg" />
+<meta property="fb:app_id" content="152487515282783" />
+
+<link rel="alternate" hreflang="vn-vi" href="https://www.howkteam.vn" />
+<link rel="author" href="https://www.facebook.com/howkteam/" />
+<link rel="publisher" href="https://www.facebook.com/howkteam/" />
+<link rel="manifest" href="/Assets/webpush/manifest.json">
+
+<!-- Adblock Detect -->
+<script src="/Assets/pagead/adsbygoogle.js"></script>
+
+<!-- Google Ads -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- End Google Ads -->
+
+    <link href="/main/styles?v=ZlJeoTRM9fG93M74xFk9KWo6_n2It2SXoDfUfQyoD0s1" rel="stylesheet"/>
+
+
+    
+    <link href="/css/cmt?v=WrN4ut_mKgXn9YKgPMsbYHE5cojKxzZv_boI6QxChS41" rel="stylesheet"/>
+
+
+</head>
+<body>
+    <div id="page-container" class="sidebar-o side-scroll page-header-glass page-header-inverse page-header-fixed main-content-narrow sidebar-inverse">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <!-- Sidebar Scroll Container -->
+            <div id="sidebar-scroll">
+                <!-- Sidebar Content -->
+                <div class="sidebar-content">
+                    <!-- Side Header -->
+                    <div class="content-header content-header-fullrow px-15">
+                        <!-- Mini Mode -->
+                        <div class="content-header-section sidebar-mini-visible-b">
+                            <!-- Logo -->
+                            <span class="content-header-item font-w700 font-size-xl float-left animated fadeIn">
+                                <img width="25" src="/Content/images/logo/logo_white 100x100.png" />
+                            </span>
+                            <!-- END Logo -->
+                        </div>
+                        <!-- END Mini Mode -->
+                        <!-- Normal Mode -->
+                        <div class="content-header-section text-center align-parent sidebar-mini-hidden">
+                            <!-- Close Sidebar, Visible only on mobile screens -->
+                            <button type="button" class="btn btn-circle btn-dual-secondary d-lg-none align-v-r" data-toggle="layout" data-action="sidebar_close">
+                                <i class="fa fa-times text-danger"></i>
+                            </button>
+                            <!-- END Close Sidebar -->
+                            <!-- Logo -->
+                            <div class="content-header-item">
+                                <a href="/">
+                                    <img src="/Content/images/logo/kteam_w_70x32.png" />
+                                </a>
+                            </div>
+                            <!-- END Logo -->
+                        </div>
+                        <!-- END Normal Mode -->
+                    </div>
+                    <!-- END Side Header -->
+                    <!-- Side User -->
+                    
+    <div class="content-side content-side-full content-side-user h-25 authen-side-mini-hide">
+        <!-- Visible only in normal mode -->
+        <div class="sidebar-mini-hidden-b text-center">
+            <a href="/account/register" class="btn btn-sm btn-block btn-hero btn-danger" data-toggle="click-ripple">
+                <i class="fas fa-user-plus fa-fw"></i> Đăng ký
+            </a>
+            <a href="/account/login?ReturnUrl=%2Fcourse%2Fkhoa-hoc-lap-trinh-c-can-ban%2Fcon-tro-co-ban-trong-c-2714" class="btn btn-sm btn-block btn-hero btn-outline-primary" data-toggle="click-ripple">
+                <i class="far fa-user fa-fw"></i> Đăng nhập
+            </a>
+        </div>
+        <!-- END Visible only in normal mode -->
+    </div>
+    <input type="hidden" id="common-authen" value="false" />
+
+                    <!-- END Side User -->
+                    <!-- Side Navigation -->
+                    
+<div class="content-side content-side-full">
+    <ul class="nav-main">
+        <li class="nav-main-heading">
+            <span class="sidebar-mini-visible">PG</span>
+            <span class="sidebar-mini-hidden">Pages</span>
+        </li>
+        <li class="position-relative d-block d-lg-none">
+            <a class="nav-submenu" href="/learn">
+                <i class="si si-book-open"></i><span class="sidebar-mini-hide">Khóa học</span>
+            </a>
+            <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+<ul>
+            <li class="position-relative">
+                <a href="/learn/lap-trinh-7" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Lập tr&#236;nh</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-c-net-7-5">
+                                Lập tr&#236;nh C# .Net
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-c-7-8">
+                                Lập tr&#236;nh C++
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-android-7-9">
+                                Lập tr&#236;nh Android
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/dieu-truong-hoc-khong-day-7-12">
+                                Điều trường học kh&#244;ng dạy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/thu-thuat-lap-trinh-7-17">
+                                Thủ thuật lập tr&#236;nh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-java-7-18">
+                                Lập tr&#236;nh Java
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/unity3d-7-20">
+                                Unity3D
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/phan-tich-thiet-ke-7-23">
+                                Ph&#226;n t&#237;ch thiết kế
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-python-7-37">
+                                Lập tr&#236;nh Python
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-php-7-40">
+                                Lập tr&#236;nh PHP
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/javascript-website-7-42">
+                                JavaScript - (Website)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-front-end-7-44">
+                                Lập tr&#236;nh Front-End
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/lap-trinh/lap-trinh-mobile-7-45">
+                                Lập tr&#236;nh Mobile
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/microsoft-office-2016-11" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Microsoft Office 2016</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/microsoft-office-2016/microsoft-word-2016-11-6">
+                                Microsoft Word 2016
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/microsoft-office-2016/microsoft-excel-2016-11-16">
+                                Microsoft Excel 2016
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/microsoft-office-2016/microsoft-powerpoint-2016-11-19">
+                                Microsoft PowerPoint 2016
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/it-phan-mem-13" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">IT &amp; Phần mềm</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/it-phan-mem/thu-thuat-may-tinh-13-14">
+                                Thủ thuật m&#225;y t&#237;nh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/it-phan-mem/huong-dan-cai-dat-13-15">
+                                Hướng dẫn c&#224;i đặt
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/it-phan-mem/bao-mat-may-tinh-13-36">
+                                Bảo mật m&#225;y t&#237;nh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/it-phan-mem/phan-cung-bao-mat-13-43">
+                                Phần cứng &amp; Bảo mật
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/do-hoa-hinh-anh-21" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Đồ họa h&#236;nh ảnh</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/do-hoa-hinh-anh/adobe-photoshop-lightroom-21-22">
+                                Adobe Photoshop LightRoom
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/kinh-te-26" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Kinh tế</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/kinh-te/quan-tri-kinh-doanh-26-27">
+                                Quản trị kinh doanh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/kinh-te/ke-toan-26-28">
+                                Kế to&#225;n
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/kinh-te/nhan-su-26-29">
+                                Nh&#226;n sự
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/kinh-te/seo-26-30">
+                                SEO
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/learn/kinh-te/marketing-26-31">
+                                Marketing
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/ngoai-ngu-32" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Ngoại ngữ</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/ngoai-ngu/tieng-anh-32-33">
+                                Tiếng anh
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/ky-nang-mem-34" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Kỹ năng mềm</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/ky-nang-mem/ky-nang-mem-34-35">
+                                Kỹ năng mềm
+                            </a>
+                        </li>
+                </ul>
+            </li>
+            <li class="position-relative">
+                <a href="/learn/tin-tuc-49" class="nav-submenu" >
+                    <span class="sidebar-mini-hide text-uppercase">Tin tức</span>
+                </a>
+                <a data-toggle="nav-submenu" href="#" class="position-absolute navbar-expand-right"></a>
+                <ul>
+                        <li>
+                            <a href="/learn/tin-tuc/tin-tuc-cong-nghe-49-50">
+                                Tin tức c&#244;ng nghệ
+                            </a>
+                        </li>
+                </ul>
+            </li>
+</ul>
+        </li>
+        <li class="position-relative d-none d-lg-block">
+            <a class="side-nav-learn" href="/learn"><i class="si si-book-open"></i><span class="sidebar-mini-hide">Khóa học</span></a>
+            <a id="nav-item-learn" href="javascript:void(0);" class="position-absolute navbar-expand-right navbar-expand-right-root d-flex"><span class="btn btn-sm btn-square justify-content-center align-self-center"><i class="fas fa-chevron-right fa-fw"></i></span></a>
+        </li>
+        <li>
+            <a class="side-nav-question" href="https://www.facebook.com/howkteam/"><i class="si si-question"></i><span class="sidebar-mini-hide">Hỏi đáp</span></a>
+        </li>
+        <li>
+            <a class="side-nav-doc" href="/documentation"><i class="si si-docs"></i><span class="sidebar-mini-hide">Bài viết</span></a>
+        </li>
+        <li>
+            <a class="side-nav-tag" href="/tags"><i class="si si-tag"></i><span class="sidebar-mini-hide">Tag</span></a>
+        </li>
+        <li>
+            <a class="side-nav-kter" href="/users"><i class="si si-users"></i><span class="sidebar-mini-hide">Kter</span></a>
+        </li>
+        <li>
+            <a class="side-nav-about" href="/about"><i class="si si-info"></i><span class="sidebar-mini-hide">Về Kteam</span></a>
+        </li>
+        <li>
+            <a class="side-nav-donate" href="/donate"><i class="si si-cup"></i><span class="sidebar-mini-hide">Tài trợ</span></a>
+        </li>
+        <li>
+            <a class="side-nav-contact" href="/about/contact"><i class="si si-note"></i><span class="sidebar-mini-hide">Phản hồi</span></a>
+        </li>
+    </ul>
+</div>
+                    <!-- END Side Navigation -->
+                </div>
+                <!-- Sidebar Content -->
+            </div>
+            <!-- END Sidebar Scroll Container -->
+        </nav>
+        <!-- END Sidebar -->
+        <!-- Learn Menu -->
+        
+<div class="custom-menu-wrapper" style="display: none">
+    <div class="row gutters-tiny h-100">
+        <div class="col-lg-3 h-100 border-right">
+            <div class="asyncPartial h-100" data-url="/common/sidebarbranchesdesktop"></div>
+        </div>
+        <div class="col-lg-3 h-100 border-right" id="sidebarCatMenuWrapperParent" style="display: none">
+            <div id="sidebarCatMenuWrapper" class="h-100 bg-gray-lighter">
+                <div class="input-group p-15">
+                    <input type="text" id="sidebarInputSearchCatMenu" class="form-control" placeholder="Tìm...">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div id="sidebarCatList"></div>
+                <div class="cat-menu-skeleton">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="min-height-20 bg-gray"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 h-100" id="sidebarCourseMenuWrapperParent" style="display: none">
+            <div id="sidebarCourseMenuWrapper" class="h-100 bg-gray-lighter">
+                <div class="input-group p-15">
+                    <input type="text" id="sidebarInputSearchCourseMenu" class="form-control" placeholder="Tìm...">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div id="sidebarCourseList"></div>
+                <div class="course-menu-skeleton">
+                    <div class="list-group">
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="media">
+                                    <div class="w-150px min-height-100 bg-gray mr-3"></div>
+                                    <div class="media-body">
+                                        <div class="min-height-20 bg-gray mb-10"></div>
+                                        <div class="clearfix">
+                                            <div class="min-height-20 w-25 bg-gray mr-10 float-left"></div>
+                                            <div class="min-height-20 w-25 bg-gray float-left"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="media">
+                                    <div class="w-150px min-height-100 bg-gray mr-3"></div>
+                                    <div class="media-body">
+                                        <div class="min-height-20 bg-gray mb-10"></div>
+                                        <div class="clearfix">
+                                            <div class="min-height-20 w-25 bg-gray mr-10 float-left"></div>
+                                            <div class="min-height-20 w-25 bg-gray float-left"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="media">
+                                    <div class="w-150px min-height-100 bg-gray mr-3"></div>
+                                    <div class="media-body">
+                                        <div class="min-height-20 bg-gray mb-10"></div>
+                                        <div class="clearfix">
+                                            <div class="min-height-20 w-25 bg-gray mr-10 float-left"></div>
+                                            <div class="min-height-20 w-25 bg-gray float-left"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item list-group-item-action border-0">
+                                <div class="media">
+                                    <div class="w-150px min-height-100 bg-gray mr-3"></div>
+                                    <div class="media-body">
+                                        <div class="min-height-20 bg-gray mb-10"></div>
+                                        <div class="clearfix">
+                                            <div class="min-height-20 w-25 bg-gray mr-10 float-left"></div>
+                                            <div class="min-height-20 w-25 bg-gray float-left"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none" id="sidebarCourseMenuWrapperCache"></div>
+        </div>
+    </div>
+</div>
+        <!-- END Learn Menu -->
+        <!-- Header -->
+        <header id="page-header">
+            <!-- Header Content -->
+            <div class="content-header">
+                <!-- Left Section -->
+                <div class="content-header-section">
+                    <!-- Toggle Sidebar -->
+                    <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                    <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <!-- END Toggle Sidebar -->
+                    <span class="header-logo-hide">
+                        <a href="/">
+                            <img src="/Content/images/logo/kteam_w_70x32.png" />
+                        </a>
+                    </span>
+                </div>
+                <!-- END Left Section -->
+                <!-- Right Section -->
+                <div class="content-header-section">
+                    <!-- Open Search Section -->
+                    <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="header_search_on">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <!-- END Open Search Section -->
+                    
+    <!-- User Dropdown -->
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-rounded btn-dual-secondary" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="/Content/images/avatar/avatar.png" class="avatar-xs align-bottom mr-5" />
+            <span class="mr-5">Tài khoản</span>
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right min-width-150" aria-labelledby="page-header-user-dropdown">
+            <a class="dropdown-item" href="/account/login?ReturnUrl=%2Fcourse%2Fkhoa-hoc-lap-trinh-c-can-ban%2Fcon-tro-co-ban-trong-c-2714">
+                <i class="far fa-user fa-fw"></i> Đăng nhập
+            </a>
+            <a class="dropdown-item" href="/account/register">
+                <i class="fas fa-user-plus fa-fw"></i> Đăng ký
+            </a>
+        </div>
+    </div>
+
+                </div>
+                <!-- END Right Section -->
+            </div>
+            <!-- END Header Content -->
+            <!-- Header Search -->
+            
+<div id="page-header-search" class="overlay-header">
+    <div class="content-header content-header-fullrow">
+<form action="/search" method="get">            <div class="input-group">
+                <div class="input-group-prepend">
+                    <!-- Close Search Section -->
+                    <button type="button" class="btn btn-secondary" data-toggle="layout" data-action="header_search_off">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    <!-- END Close Search Section -->
+                </div>
+                <input type="text" class="form-control" placeholder="Search or hit ESC.." name="q">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+</form>    </div>
+</div>
+            <!-- END Header Search -->
+        </header>
+        <!-- END Header -->
+        <!-- Main Container -->
+        <main id="main-container">
+            
+
+
+<!-- Hero -->
+<div class="bg-image" style="background-image: url('/Content/images/banner/code.jpg');">
+    <div class="bg-black-op">
+        <div class="content">
+            <div class="py-50 mt-20">
+                <h1 class="h3 text-white font-w700 mb-10">Con trỏ cơ bản trong C++</h1>
+                <h2 class="h5 text-white-op font-w400">Kh&#243;a học lập tr&#236;nh C++ căn bản</h2>
+                <a class="d-block text-white-op mb-10" href="javascript:void(0);" data-toggle="scroll-to" data-target="#review-wrapper">
+
+                    <div class="text-warning d-inline">
+                                <i class="fa fa-fw fa-star"></i>
+                                <i class="fa fa-fw fa-star"></i>
+                                <i class="fa fa-fw fa-star"></i>
+                                <i class="fa fa-fw fa-star"></i>
+                                <i class="far fa-fw fa-star"></i>
+                    </div>
+                    <div class="d-inline">
+                        <span class="font-size-h5 font-w600 text-white"> 4.4</span> (<strong class="text-white">7</strong> đánh giá)
+                    </div>
+                </a>
+                <div class="text-white-op mb-20">
+                    <span class="mr-15">
+                        Tạo bởi <a class="link-effect font-w600" href="/users/84c1b5e1-d05f-49a7-b80f-7e41fed3b261">Kteam</a>
+                    </span>
+                    <span class="mr-15 mt-5 d-block d-md-inline">
+                        Cập nhật lần cuối <span class="format-time font-w600 text-white" title="2020-08-28 11:53:25">11:53 28-08-2020</span>
+                    </span>
+                    <span class="mr-15 mt-5 d-block d-md-inline">
+                        <i class="far fa-fw fa-eye mr-5"></i><span class="font-w600 text-white">32.323</span> lượt xem
+                    </span>
+                    <span class="mr-15 mt-5 d-block d-md-inline">
+                        <i class="far fa-fw fa-comment mr-5"></i><span class="font-w600 text-white">4</span> bình luận
+                    </span>
+                </div>
+                <a class="btn btn-primary btn-noborder btnQuickViewLecture" href="javascript:void(0);" data-src="https://www.youtube.com/embed/ubPxYhz1wvU?autoplay=1" data-action="/learn/quickviewlecturecontent/2714" data-id="2714" data-courseid="4">
+                    Học nhanh
+                    <i class="fas fa-arrow-right fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Hero -->
+
+
+<div class="fixed-social-left d-none d-xl-block">
+    
+
+    <button class="btnShareFb btn btn-primary btn-noborder btn-circle d-block mb-5"
+            data-url="https://www.howkteam.vn/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714"
+            data-title="Con trỏ cơ bản trong C++"
+            data-description="Con trỏ cơ bản trong C++"
+            data-image="https://f.howkteam.vn/Upload/cke/images/1_LOGO%20SHOW%20WEB/2_CPlusPlus/1_CPlusPlus%20C%C6%A1%20b%E1%BA%A3n/CPP%20Basic%20howkteam%2042.jpg"
+            data-toggle="tooltip" data-placement="right" data-original-title="Chia sẻ lên facebook">
+        <i class="fab fa-facebook-f fa-fw"></i>
+    </button>
+    
+
+    
+    <span class="bookmark-desktop">
+    <div class="btn btn-circle btn-secondary text-secondary bookmark-" 
+         onclick="Kteam.saveBookmark('', '0', '/bookmark/create'); return false;"
+         data-toggle="tooltip" data-placement="right" data-original-title="Lưu bài viết">
+        <i class="far fa-bookmark fa-fw"></i>
+    </div>
+
+    </span>
+</div>
+
+<div class="fixed-nav-lecture d-none d-xl-block">
+    <a class="btn btn-primary btn-noborder btn-circle btn-prevLecture" href="#" data-toggle="tooltip" data-placement="right" data-original-title="Bài trước">
+        <i class="fa fa-arrow-left fa-fw"></i>
+    </a>
+    <a class="btn btn-primary btn-noborder btn-circle btn-nextLecture" href="#" data-toggle="tooltip" data-placement="left" data-original-title="Bài sau">
+        <i class="fa fa-arrow-right fa-fw"></i>
+    </a>
+</div>
+
+<div class="fixed-nav-page-wrapper d-none d-xl-block">
+    <span data-toggle="tooltip" data-placement="right" data-original-title="Hỏi đáp">
+        <a class="btn btn-primary btn-noborder btn-circle d-block mb-5" href="javascript:void(0)" data-toggle="scroll-to" data-target="#comment-wrapper" data-speed="fast">
+            <i class="fas fa-fw fa-question"></i>
+        </a>
+    </span>
+        <span data-toggle="tooltip" data-placement="right" data-original-title="Tải tài liệu">
+            <a class="btn btn-danger btn-noborder btn-circle d-block mb-5" href="/redirect?Id=%2fVFWH6SyqU3P%2f6cySeX4JdfJ4aEKKczoUjjbHwNVFxNGKbLd3gDfVqZgxg7BsxW0pGae%2f1W1FrZuCtVN%2f0Vc4UcXu6kq745I8IpTB%2bhtEL0%3d" target="_blank">
+                <i class="fas fa-fw fa-file-pdf"></i>
+            </a>
+        </span>
+        </div>
+
+<!-- Courses -->
+<div class="content">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb bg-white push">
+        <a class="breadcrumb-item" href="/"><i class="fas fa-home"></i></a>
+        <a class="breadcrumb-item" href="/learn">Khóa học</a>
+        <a class="breadcrumb-item" href="/learn/lap-trinh-7">Lập tr&#236;nh</a>
+        <a class="breadcrumb-item" href="/learn/lap-trinh/lap-trinh-c-7-8">Lập tr&#236;nh C++</a>
+        <a class="breadcrumb-item" href="/course/khoa-hoc-lap-trinh-c-can-ban-4">Kh&#243;a học lập tr&#236;nh C++ căn bản</a>
+        <span class="breadcrumb-item active">Con trỏ cơ bản trong C++</span>
+    </nav>
+    <!-- END Breadcrumb -->
+
+    <div class="row row-deck">
+        <div class="col-lg-8">
+            <div class="block block-rounded block-fx-shadow">
+                <div class="auto-resizable-iframe">
+                    <div>
+                            <iframe oncontextmenu="return false" id="ytplayer" height="538" type="text/html" src="https://www.youtube.com/embed/ubPxYhz1wvU"
+                                    frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <!-- Course Info -->
+            <div class="block block-rounded block-fx-shadow">
+                <div class="block-header block-header-default bg-gd-primary">
+                    <h3 class="block-title font-w600 text-white">
+                        <i class="fa fa-fw fa-list"></i>
+                        Danh sách bài học
+                    </h3>
+                    <div class="block-options d-lg-none">
+                        <button type="button" class="btn-block-option text-white" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                    </div>
+                </div>
+                <div class="block-content p-0">
+                    <div class="asyncPartial" data-url="/learn/lecturelist?courseId=4&amp;activeId=2714">
+                    </div>
+                </div>
+            </div>
+            <!-- END Course Info -->
+        </div>
+    </div>
+
+    <div id="focus-learn">
+        <div class="focus-learn-header" style="display: none;">
+            <div class="mr-15">
+                <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="w-100">
+                <h2 class="mb-10 h4 text-white">Con trỏ cơ bản trong C++</h2>
+                <div class="text-white-op font-size-sm">
+                    <span class="mr-15">
+                        <i class="fa fa-book fa-fw mr-5"></i><a class="font-weight-bold" href="/course/khoa-hoc-lap-trinh-c-can-ban-4">Kh&#243;a học lập tr&#236;nh C++ căn bản</a>
+                    </span>
+                    <span class="mr-15">
+                        Tạo bởi <a class="font-w600" href="/users/84c1b5e1-d05f-49a7-b80f-7e41fed3b261">Kteam</a>
+                    </span>
+                    <span class="mr-15 mt-5">
+                        <i class="far fa-fw fa-eye mr-5"></i><span class="text-white">32.323</span>
+                    </span>
+                    <span class="mr-15 mt-5">
+                        <i class="far fa-fw fa-comment mr-5"></i><span class="text-white">4</span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <a class="btn btn-sm btn-primary btn-noborder btnQuickViewLecture" href="javascript:void(0);" data-src="https://www.youtube.com/embed/ubPxYhz1wvU?autoplay=1" data-action="/learn/quickviewlecturecontent/2714" data-id="2714" data-courseid="4">
+                    Học nhanh
+                    <i class="fas fa-arrow-right fa-fw"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="block block-rounded block-fx-shadow" id="content-post-wrapper">
+                    <div class="block-content block-content-full border-b clearfix">
+                        <h2 class="m-0 font-size-h2">
+                            Con trỏ cơ bản trong C++
+                        </h2>
+                        <div class="mt-10 d-block d-xl-none">
+                            
+                            <button class="btnShareFb btn btn-primary btn-noborder btn-circle mr-5"
+                                    data-url="https://www.howkteam.vn/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714"
+                                    data-title="Con trỏ cơ bản trong C++"
+                                    data-description="Con trỏ cơ bản trong C++"
+                                    data-image="https://f.howkteam.vn/Upload/cke/images/1_LOGO%20SHOW%20WEB/2_CPlusPlus/1_CPlusPlus%20C%C6%A1%20b%E1%BA%A3n/CPP%20Basic%20howkteam%2042.jpg"
+                                    data-toggle="tooltip" data-placement="right" data-original-title="Chia sẻ lên facebook">
+                                <i class="fab fa-facebook-f fa-fw"></i>
+                            </button>
+                            
+                            <span class="bookmark-mobile"></span>
+                        </div>
+                    </div>
+                    <div class="block-content block-content-full">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="d-block d-lg-none">
+                                    <p class="font-size-h5 font-w600 mb-5">
+                                        Nội dung bài viết
+                                        <a class="btn btn-sm btn-link btnQuickViewLecture" href="javascript:void(0);" data-src="https://www.youtube.com/embed/ubPxYhz1wvU?autoplay=1" data-action="/learn/quickviewlecturecontent/2714" data-id="2714" data-courseid="4">
+                                            Học nhanh
+                                            <i class="fas fa-arrow-right fa-fw"></i>
+                                        </a>
+                                    </p>
+                                    <div class="document-outline">
+
+                                    </div>
+                                    <div class="mb-15">
+                                        <div class="btn-group w-100">
+                                            <a class="btn btn-secondary btn-prevLecture w-50" href="#">
+                                                <i class="fa fa-arrow-left text-primary fa-fw"></i>
+                                                <span>Bài trước</span>
+                                            </a>
+                                            <a class="btn btn-secondary btn-nextLecture w-50" href="#">
+                                                <span>Bài sau</span>
+                                                <i class="fa fa-arrow-right text-primary fa-fw"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="content-post" class="content-post">
+                                    
+<div class="my-15">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9004889619110409"
+         data-ad-slot="9044410578"
+         data-ad-format="auto"></ins>
+    <script>
+        //window.addEventListener('load', function () {
+        //    (adsbygoogle = window.adsbygoogle || []).push({});
+        //});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+                                    <h2>Dẫn nhập</h2>
+
+<p>Ở b&agrave;i học trước, m&igrave;nh đ&atilde; chia sẻ cho c&aacute;c bạn về <a href="/redirect?Id=Y%2fHKZv6fbvNJnzXtx4Ic0lthogs3xmFNd%2fmA%2beIi3HrLXkoJNxKQfs3CYsTGyVjju81n2XDMZgx5YmdH9d3YHOZTVy4bSrFpnqWx25quxMM%2fQ92ImSla84d7jBrtkTCT"> LỚP STD::ARRAY TRONG C++11</a>.&nbsp;Từ C++11, lớp <strong>std::array</strong> thường được ưu ti&ecirc;n sử dụng thay thế cho mảng tĩnh, v&igrave; n&oacute; được hỗ trợ sẵn nhiều phương thức v&agrave; dễ d&agrave;ng quản l&yacute; hơn</p>
+
+<p>H&ocirc;m nay, ch&uacute;ng ta sẽ c&ugrave;ng t&igrave;m hiểu về kh&aacute;i niệm <span style="color:#ff6600"><strong>Con trỏ (Pointer)</strong></span>, một trong những phần kh&oacute; hiểu nhất của ng&ocirc;n ngữ lập tr&igrave;nh C++.</p>
+
+<hr />
+<h2>Nội dung</h2>
+
+<p>Để đọc hiểu b&agrave;i n&agrave;y tốt nhất c&aacute;c bạn n&ecirc;n c&oacute; kiến thức cơ bản về:</p>
+
+<ul>
+	<li><a href="/redirect?Id=Y%2fHKZv6fbvNJnzXtx4Ic0n3nY4TfYJWT9kAQx46uZ%2f3M%2fRWMjzjbF0vx8HfqVsXXFyz%2bWdKmHAKyOGLHMQnajeZIoeu96hfiF6TZonifOIcRKzOCdKb2OS8mWHCVkfu5">BIẾN TRONG C++</a></li>
+</ul>
+
+<p>Trong b&agrave;i ta sẽ c&ugrave;ng t&igrave;m hiểu c&aacute;c vấn đề:</p>
+
+<ul>
+	<li>Nh&igrave;n lại kh&aacute;i niệm biến (variable)</li>
+	<li>To&aacute;n tử địa chỉ (&amp;): address-of operator</li>
+	<li>To&aacute;n tử trỏ đến (*): dereference operator</li>
+	<li>Con trỏ (Pointer)</li>
+</ul>
+
+<hr />
+<h2>Nh&igrave;n lại kh&aacute;i niệm biến trong C++ (Variables)</h2>
+
+<p>Trong b&agrave;i học<a href="/redirect?Id=Y%2fHKZv6fbvNJnzXtx4Ic0n3nY4TfYJWT9kAQx46uZ%2f3M%2fRWMjzjbF0vx8HfqVsXXFyz%2bWdKmHAKyOGLHMQnajeZIoeu96hfiF6TZonifOIcRKzOCdKb2OS8mWHCVkfu5">BIẾN TRONG C++</a>, bạn đ&atilde; biết <strong>Biến (variable) l&agrave; t&ecirc;n của một v&ugrave;ng trong bộ nhớ RAM</strong>, được sử dụng để lưu trữ th&ocirc;ng tin.</p>
+
+<p><span style="color:#b22222"><strong>V&iacute; dụ:</strong></span></p>
+
+<pre>
+<code class="language-cpp">// Khai báo biến số nguyên n
+// Giả sử n được cấp vùng nhớ tại địa chỉ 0x0069
+int n;
+</code></pre>
+
+<p>Khi d&ograve;ng lệnh n&agrave;y được thực thi, <strong>một v&ugrave;ng trong bộ nhớ RAM</strong> sẽ được cấp cho biến n. Trong trường hợp n&agrave;y, biến <strong>n</strong> được cấp một v&ugrave;ng nhớ tại <strong>địa chỉ 0x0069 trong RAM</strong>, vậy mỗi khi chương tr&igrave;nh chạy đến d&ograve;ng lệnh n&agrave;o chứa biến <strong>n</strong>, chương tr&igrave;nh sẽ <strong>v&agrave;o v&ugrave;ng nhớ 0x0069 để lấy gi&aacute; trị của n&oacute;</strong>.</p>
+
+<hr />
+<h2>To&aacute;n tử địa chỉ (&amp;): address-of operator</h2>
+
+<p><span style="color:#ff6600"><strong>To&aacute;n tử địa chỉ (&amp;) </strong></span>cho ph&eacute;p ch&uacute;ng ta xem địa chỉ bộ nhớ n&agrave;o được g&aacute;n cho một biến.</p>
+
+<p><span style="color:#b22222"><strong>V&iacute; dụ:</strong></span></p>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+
+	int x = 10;
+	cout &lt;&lt; x &lt;&lt; '\n'; // print the value of variable x
+	cout &lt;&lt; &amp;x &lt;&lt; '\n'; // print the memory address of variable x
+
+	system("pause");
+	return 0;
+}
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="text-align:center"><img alt="Con trỏ cơ bản trong C++" src="https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/1_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png" style="height:152px; margin-bottom:10px; margin-top:10px; width:418px" /></p>
+
+<p>X&eacute;t kết quả tr&ecirc;n, ta thấy <strong>009BF8CC</strong> ch&iacute;nh l&agrave;<strong> địa chỉ của biến x trong bộ nhớ RAM</strong>, địa chỉ n&agrave;y sẽ thay đổi sau mỗi lần chạy chương tr&igrave;nh.</p>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;: </strong></span><strong>To&aacute;n tử địa chỉ (&amp;) </strong>tương tự như <strong>to&aacute;n tử bitwise (&amp;)</strong>, nhưng <strong>To&aacute;n tử địa chỉ (&amp;)</strong> l&agrave; to&aacute;n tử 1 ng&ocirc;i, trong khi <strong>to&aacute;n tử bitwise (&amp;)</strong> l&agrave; 2 ng&ocirc;i.</p>
+</blockquote>
+
+<hr />
+<h2>To&aacute;n tử trỏ đến (*): dereference operator</h2>
+
+<p><span style="color:#ff6600"><strong>To&aacute;n tử trỏ đến (*) </strong></span>cho ph&eacute;p ch&uacute;ng ta <strong>truy cập (get/set) gi&aacute; trị </strong>tại một địa chỉ cụ thể.</p>
+
+<p><span style="color:#b22222"><strong>V&iacute; dụ:</strong></span></p>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+
+	int x = 10;
+	cout &lt;&lt; x &lt;&lt; '\n'; // print the value of variable x
+	cout &lt;&lt; &amp;x &lt;&lt; '\n'; // print the memory address of variable x
+	cout &lt;&lt; *&amp;x &lt;&lt; '\n'; /// print the value at the memory address of variable x
+
+	*&amp;x = 20;
+	cout &lt;&lt; x &lt;&lt; '\n'; // print the value of variable x
+
+	return 0;
+}
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="text-align:center"><img alt="Con trỏ cơ bản trong C++" src="https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/2_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png" style="height:145px; margin-bottom:10px; margin-top:10px; width:431px" /></p>
+
+<p>Trong v&iacute; dụ tr&ecirc;n, ta d&ugrave;ng <strong>to&aacute;n tử trỏ (*)</strong> thay đổi gi&aacute; trị tại địa chỉ của biến x th&agrave;nh 20 (kh&ocirc;ng trực tiếp thay đổi biến x).</p>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;: </strong></span><strong>To&aacute;n tử trỏ (*) </strong>tương tự như <strong>to&aacute;n tử nh&acirc;n (*)</strong>, tuy nhi&ecirc;n <strong>to&aacute;n tử trỏ (*) </strong>l&agrave; to&aacute;n tử 1 ng&ocirc;i, trong khi<strong> to&aacute;n tử nh&acirc;n (*) </strong>l&agrave; 2 ng&ocirc;i.</p>
+</blockquote>
+
+<hr />
+<h2>Con trỏ (Pointer)</h2>
+
+<p><span style="color:#ff6600"><strong>Con trỏ (pointer)</strong></span> l&agrave; một biến chứa một địa chỉ bộ nhớ l&agrave;m gi&aacute; trị của n&oacute;.</p>
+
+<h3>Khai b&aacute;o con trỏ (Declaring a pointer)</h3>
+
+<p><span style="color:#ff6600"><strong>Biến con trỏ (pointer variable)</strong></span> được khai b&aacute;o giống như c&aacute;c biến th&ocirc;ng thường, nhưng c&oacute; th&ecirc;m <strong>một dấu sao (*) </strong>giữa kiểu dữ liệu v&agrave; t&ecirc;n biến.</p>
+
+<pre>
+<code class="language-cpp">int *iPtr; // con trỏ đến 1 địa chỉ chứa giá trị số nguyên
+double *dPtr; // con trỏ đến 1 địa chỉ chứa giá trị số thực
+
+int* iPtr2; // đúng cú pháp (nhưng không nên sử dụng)
+int * iPtr3; // đúng cú pháp (nhưng không nên sử dụng)
+
+int *iPtr4, *iPtr5; // khai báo 2 con trỏ đến các biến số nguyên
+</code></pre>
+
+<p><strong>C++</strong> cho ph&eacute;p đặt dấu sao <strong>cạnh kiểu dữ liệu, cạnh t&ecirc;n biến, hoặc ở giữa</strong>. Tuy nhi&ecirc;n, khi khai b&aacute;o nhiều biến con trỏ, dấu sao phải được đặt cạnh mỗi biến.</p>
+
+<pre>
+<code class="language-cpp">int* iPtr6, iPtr7; // iPtr6 là 1 con trỏ, nhưng iPtr7 chỉ là 1 biến số nguyên</code></pre>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;: </strong></span>Khi khai b&aacute;o một <strong> biến con trỏ</strong>, h&atilde;y đặt <strong>dấu sao (*) b&ecirc;n cạnh t&ecirc;n biến</strong>.</p>
+</blockquote>
+
+<p>Tuy nhi&ecirc;n, khi trả về một con trỏ từ một h&agrave;m, sẽ r&otilde; r&agrave;ng hơn nếu đặt dấu sao (*) b&ecirc;n cạnh kiểu trả về:</p>
+
+<pre>
+<code class="language-cpp">int* doSomething();</code></pre>
+
+<blockquote>
+<p><strong><span style="color:#008000">Ch&uacute; &yacute;: </span></strong>Khi khai b&aacute;o một <strong> h&agrave;m </strong>trả về 1 con trỏ, h&atilde;y<strong> đặt dấu sao (*) b&ecirc;n cạnh kiểu dữ liệu trả về</strong>.</p>
+</blockquote>
+
+<p>Tương tự như c&aacute;c biến th&ocirc;ng thường, <span style="color:#ff0000"><strong>con trỏ kh&ocirc;ng được khởi tạo khi khai b&aacute;o</strong></span>. Nếu con trỏ kh&ocirc;ng được khởi tạo một gi&aacute; trị, ch&uacute;ng sẽ chứa gi&aacute; trị r&aacute;c.</p>
+
+<hr />
+<h3>G&aacute;n gi&aacute; trị cho con trỏ (Assigning a value to a pointer)</h3>
+
+<p>V&igrave; <span style="color:#ff6600"><strong>con trỏ (pointer)</strong></span> l&agrave; một biến chứa một <strong>địa chỉ bộ nhớ</strong>, n&ecirc;n khi gi&aacute; trị cho con trỏ, gi&aacute; trị đ&oacute; phải l&agrave; 1 địa chỉ.</p>
+
+<p><span style="color:#b22222"><strong>V&iacute; dụ:</strong></span></p>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int value = 10;
+	int *ptr = &amp;value; // khởi tạo con trỏ ptr là địa chỉ biến value
+
+	cout &lt;&lt; &amp;value &lt;&lt; '\n'; // in địa chỉ biến value
+	cout &lt;&lt; ptr &lt;&lt; '\n'; // in địa chỉ của con trỏ ptr đang giữ
+
+	return 0;
+}
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="text-align:center"><img alt="Con trỏ cơ bản trong C++" src="https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/3_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png" style="height:141px; margin-bottom:10px; margin-top:10px; width:446px" /></p>
+
+<p>Trong v&iacute; dụ tr&ecirc;n, con trỏ ptr đang nắm giữ địa chỉ của biến value, n&ecirc;n ta c&oacute; thể n&oacute;i <strong>con trỏ ptr trỏ đến biến value</strong>.</p>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;:</strong></span> Kiểu dữ liệu của con trỏ d&ugrave;ng để x&aacute;c định kiểu dữ liệu của biến m&agrave; n&oacute; trỏ đến.</p>
+</blockquote>
+
+<pre>
+<code class="language-cpp">int iValue = 5;
+double dValue = 7.0;
+
+int *iPtr = &amp;iValue; // ok
+double *dPtr = &amp;dValue; // ok
+
+iPtr = &amp;dValue; // sai – con trỏ int không thể trỏ đến địa chỉ biến double
+dPtr = &amp;iValue; // sai – con trỏ double không thể trỏ đến địa chỉ biến int
+
+int *ptr = 5; // sai – con trỏ chỉ có thể giữ 1 địa chỉ
+double *dPtr = 0x0012FF7C; // sai
+</code></pre>
+
+<p>Trong v&iacute; dụ tr&ecirc;n, ta c&oacute; thể thấy <strong>&amp;iValue</strong> l&agrave; 1 địa chỉ của biến kiểu <strong>int</strong>, n&ecirc;n n&oacute; c&oacute; thể g&aacute;n cho con trỏ kiểu <strong>int</strong>. Để hiểu r&otilde; hơn, ta c&oacute; thể kiểm tra kiểu dữ liệu của <strong>&amp;iValue</strong>:</p>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int iValue = 5;
+	cout &lt;&lt; typeid(&amp;iValue).name() &lt;&lt; "\n";
+
+	return 0;
+}
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="text-align:center"><img alt="Con trỏ cơ bản trong C++" src="https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/4_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png" style="height:137px; margin-bottom:10px; margin-top:10px; width:411px" /></p>
+
+<hr />
+<h3>Truy cập v&agrave;o v&ugrave;ng nhớ m&agrave; con trỏ trỏ đến (Dereferencing pointers)</h3>
+
+<p>Khi biến con trỏ đ&atilde; được trỏ đến một địa chỉ n&agrave;o đ&oacute;, ta c&oacute; thể truy xuất gi&aacute; trị tại địa chỉ đ&oacute; bằng<span style="color:#ff6600"><strong> to&aacute;n tử trỏ (*)</strong></span>.</p>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	int value = 10;
+	cout &lt;&lt; &amp;value &lt;&lt; "\n"; // in địa chỉ biến value
+	cout &lt;&lt; value &lt;&lt; "\n"; // in giá trị biến value
+
+	int *ptr = &amp;value; // ptr trỏ đến biến value
+	cout &lt;&lt; ptr &lt;&lt; "\n"; // in địa chỉ con trỏ ptr trỏ đến, tương đương &amp;value
+	cout &lt;&lt; *ptr &lt;&lt; "\n"; // in giá trị tại địa chỉ mà ptr trỏ đến , tương đương value
+
+	return 0;
+}
+</code></pre>
+
+<p><strong>Output:</strong></p>
+
+<p style="text-align:center"><img alt="Con trỏ cơ bản trong C++" src="https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/5_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png" style="height:136px; margin-bottom:10px; margin-top:10px; width:452px" /></p>
+
+<p>Sau khi được g&aacute;n, gi&aacute; trị con trỏ c&oacute; thể được g&aacute;n lại cho một gi&aacute; trị kh&aacute;c:</p>
+
+<pre>
+<code class="language-cpp">int value1 = 5;
+int value2 = 7;
+
+int *ptr;
+
+ptr = &amp;value1; // ptr points to value1
+cout &lt;&lt; *ptr &lt;&lt; "\n"; // prints 5
+
+ptr = &amp;value2; // ptr now points to value2
+cout &lt;&lt; *ptr &lt;&lt; "\n"; // prints 7
+</code></pre>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;:</strong></span> Khi địa chỉ của <strong> biến value</strong> được g&aacute;n cho <strong>con trỏ ptr</strong>:</p>
+
+<ul>
+	<li><strong>ptr</strong> tương đương với <strong>&amp;value</strong></li>
+	<li><strong>*ptr </strong>được xử l&yacute; giống như <strong>value</strong></li>
+</ul>
+
+<p>V&igrave;<strong> *ptr</strong> được xử l&yacute; giống như <strong>value</strong>, n&ecirc;n ta c&oacute; thể g&aacute;n gi&aacute; trị cho <strong>*ptr</strong> như 1 biến th&ocirc;ng thường:</p>
+</blockquote>
+
+<pre>
+<code class="language-cpp">value = 5;
+int *ptr = &amp;value; // ptr points to value
+
+*ptr = 7; // *ptr tương đương với value
+cout &lt;&lt; value; // prints 7
+</code></pre>
+
+<hr />
+<h3>K&iacute;ch thước của con trỏ (size of pointers)</h3>
+
+<p><span style="color:#ff6600"><strong>K&iacute;ch thước của con trỏ</strong></span> phụ thuộc v&agrave;o <strong>kiến ​​tr&uacute;c m&agrave; tập tin thực thi được bi&ecirc;n dịch</strong>.</p>
+
+<ul>
+	<li>Kiến tr&uacute;c <strong>x86</strong>, con trỏ sẽ c&oacute; k&iacute;ch thước 32-bit (4 bytes)</li>
+	<li>Kiến tr&uacute;c <strong>x64</strong>, con trỏ sẽ c&oacute; k&iacute;ch thước 64-bit (8 bytes)</li>
+</ul>
+
+<pre>
+<code class="language-cpp">char *chPtr; // biến kiểu char có kích thước 1 byte
+int *iPtr; // biến kiểu int có kích thước 4 bytes
+struct Something
+{
+	int nX, nY, nZ;
+};
+Something *somethingPtr; // biến kiểu Something là 12 bytes
+
+cout &lt;&lt; sizeof(chPtr) &lt;&lt; '\n'; // 4 bytes
+cout &lt;&lt; sizeof(iPtr) &lt;&lt; '\n'; // 4 bytes
+cout &lt;&lt; sizeof(somethingPtr) &lt;&lt; '\n'; // 4 bytes
+</code></pre>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;: </strong></span>Kiểu dữ liệu của con trỏ thay đổi kh&ocirc;ng t&aacute;c động đến k&iacute;ch thước bộ nhớ của con trỏ.</p>
+</blockquote>
+
+<hr />
+<h3>Truy cập con trỏ kh&ocirc;ng hợp lệ</h3>
+
+<p>Khi truy cập v&agrave;o một con trỏ, ứng dụng sẽ đến vị tr&iacute; bộ nhớ được lưu trữ trong con trỏ v&agrave; truy xuất nội dung của bộ nhớ. V&igrave; l&yacute; do bảo mật, nếu một ứng dụng cố gắng truy cập v&agrave;o một vị tr&iacute; bộ nhớ kh&ocirc;ng được hệ điều h&agrave;nh ph&acirc;n bổ, hệ điều h&agrave;nh c&oacute; thể tắt ứng dụng.</p>
+
+<blockquote>
+<p><span style="color:#008000"><strong>Ch&uacute; &yacute;: </strong></span>Nếu truy xuất gi&aacute; trị của con trỏ khi n&oacute; chưa g&aacute;n địa chỉ cụ thể, chương tr&igrave;nh c&oacute; thể bị đ&oacute;ng bởi hệ điều h&agrave;nh.</p>
+</blockquote>
+
+<pre>
+<code class="language-cpp">#include &lt;iostream&gt;
+using namespace std;
+
+void foo(int *&amp;p)
+{
+	// p là tham chiếu đến con trỏ (sẽ được đề cập ở những bài sau)
+	// Hàm này dùng để đánh lừa compiler rằng con trỏ p đã bị thay đổi
+	// Mục đích là để chương trình được biên dịch thành công
+}
+
+int main()
+{
+	int *p; // Khai báo 1 con trỏ mang giá trị rác
+	foo(p); // Đánh lừa compiler rằng con trỏ p đã được gán
+
+	cout &lt;&lt; *p; // In ra giá trị tại địa chỉ rác
+
+	return 0;
+}
+</code></pre>
+
+<p>Trong v&iacute; dụ tr&ecirc;n, mặc d&ugrave; chương tr&igrave;nh đ&atilde; bi&ecirc;n dịch th&agrave;nh c&ocirc;ng, nhưng khi thực thi, ta nhận được th&ocirc;ng b&aacute;o lỗi vi phạm quyền truy cập <strong>&ldquo;Exception thrown: read access violation&rdquo;</strong>.</p>
+
+<hr />
+<h2>Kết luận</h2>
+
+<p>Qua b&agrave;i học n&agrave;y, bạn đ&atilde; nắm được cơ bản về Con trỏ trong C++ (Pointer). Con trỏ được xem l&agrave; một trong những phần kh&oacute; hiểu nhất của ng&ocirc;n ngữ C++, nhưng n&oacute; sẽ đơn giản hơn nhiều nếu bạn nắm được những kh&aacute;i niệm căn bản trong b&agrave;i học n&agrave;y.</p>
+
+<p>Trong b&agrave;i tiếp theo, m&igrave;nh sẽ giới thiệu cho c&aacute;c bạn kh&aacute;i niệm CON TRỎ NULL TRONG C++&nbsp;(NULL pointers).</p>
+
+<p>Cảm ơn c&aacute;c bạn đ&atilde; theo d&otilde;i b&agrave;i viết. H&atilde;y để lại b&igrave;nh luận hoặc g&oacute;p &yacute; của m&igrave;nh để ph&aacute;t triển b&agrave;i viết tốt hơn. Đừng qu&ecirc;n &ldquo;<strong>Luyện tập &ndash; Thử th&aacute;ch &ndash; Kh&ocirc;ng ngại kh&oacute;</strong>&rdquo;.</p>
+
+                                        <hr />
+                                        <h2>Tải xuống</h2>
+
+<div class="mb-20">
+    <h3>Tài liệu</h3>
+    <p>Nhằm phục vụ mục đích học tập Offline của cộng đồng, <span class="font-w600" style="color:#800080">Kteam</span> hỗ trợ tính năng lưu trữ nội dung bài học <span style="color:#ff6600"><strong>Con trỏ cơ bản trong C++</strong></span> dưới dạng file PDF trong link bên dưới.</p>
+    <p>Ngoài ra, bạn cũng có thể tìm thấy các tài liệu được đóng góp từ cộng đồng ở mục <a href="/documentation" target="_blank">TÀI LIỆU</a> trên thư viện <a class="font-w600" href="/" target="_blank">Howkteam.com</a></p>
+    <blockquote>
+        <p>Đừng quên <strong><span style="color:#ff0000">like</span></strong> và <strong><span style="color:#ff0000">share</span></strong> để ủng hộ Kteam và tác giả nhé!</p>
+    </blockquote>
+    <a href="/redirect?Id=%2fVFWH6SyqU3P%2f6cySeX4JdfJ4aEKKczoUjjbHwNVFxNGKbLd3gDfVqZgxg7BsxW0pGae%2f1W1FrZuCtVN%2f0Vc4UcXu6kq745I8IpTB%2bhtEL0%3d" target="_blank"><img src="/Content/images/button/PDF.png" style="height: 50px !important"></a>
+</div>
+                                    
+<hr />
+<h2>Thảo luận</h2>
+<p>Nếu bạn có bất kỳ khó khăn hay thắc mắc gì về khóa học, đừng ngần ngại đặt câu hỏi trong phần <a href="javascript:void(0)" data-toggle="scroll-to" data-target="#comment-wrapper" data-speed="fast">BÌNH LUẬN</a> bên dưới hoặc trong mục <a href="/question" target="_blank">HỎI &amp; ĐÁP</a> trên thư viện <a class="font-w600" href="/" target="_blank">Howkteam.com</a> để nhận được sự hỗ trợ từ cộng đồng.</p>
+
+<div class="media mb-10">
+    <img src="https://drive.google.com/uc?id=1DhBZvBhDHROGqgCtOyQQFTwuul94m983" class="mr-10" style="height: 50px !important">
+    <div class="media-body align-self-center font-w600">
+        <a href="/question">CỘNG ĐỒNG HỎI ĐÁP HOWKTEAM.COM</a>
+    </div>
+</div>
+<div class="media mb-10">
+    <img src="https://drive.google.com/uc?id=1GeF7yKmhsB1f7o7SEW2eMM8Lhrgr1pHB" class="mr-10" style="height: 50px !important">
+    <div class="media-body align-self-center font-w600">
+        <a href="https://www.facebook.com/groups/howkteam/">GROUP THẢO LUẬN FACEBOOK</a>
+    </div>
+</div>
+
+                                    
+<div class="my-15">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9004889619110409"
+         data-ad-slot="9044410578"
+         data-ad-format="auto"></ins>
+    <script>
+        //window.addEventListener('load', function () {
+        //    (adsbygoogle = window.adsbygoogle || []).push({});
+        //});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="d-none d-lg-block" id="document-outline-desktop">
+                                    <p class="font-size-h5 font-w600 mb-5">
+                                        Nội dung bài viết
+                                        
+                                    </p>
+                                    <div class="document-outline">
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="block block-rounded block-fx-shadow" id="author-wrapper">
+                            <div class="block-header">
+                                <h3 class="block-title font-w600">Tác giả/Dịch giả</h3>
+                            </div>
+                            <div class="block-content block-content-full pt-0">
+                                <div class="media">
+                                    <a class="media-left pr-20" href="/users/84c1b5e1-d05f-49a7-b80f-7e41fed3b261">
+                                        <img class="media-object avatar-lg" src="https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1493074423/avatar_user/snatdl5kbmdmlwh05gf8.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <div class="font-size-lg font-w600 text-black mb-10">
+                                            <a class="" href="/users/84c1b5e1-d05f-49a7-b80f-7e41fed3b261">Kteam</a>
+                                        </div>
+                                        <div class="mb-10">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="block block-rounded block-fx-shadow" id="course-wrapper">
+                            <div class="block-header">
+                                <h3 class="block-title font-w600">Khóa học</h3>
+                            </div>
+                            <div class="block-content block-content-full pt-0">
+                                <p>
+                                    <a class="h4" href="/course/khoa-hoc-lap-trinh-c-can-ban-4">Kh&#243;a học lập tr&#236;nh C++ căn bản</a>
+                                </p>
+                                <div><p style="text-align:center"><img alt="" src="https://drive.google.com/uc?id=0BwqtkOhv7GE-bEktaHdMbEtoLVk" style="height:169px; margin-bottom:10px; margin-top:10px; width:300px" /></p>
+
+<p>Hiện nay, <strong>C++</strong> đ&atilde; l&agrave; c&aacute;i t&ecirc;n rất quen thuộc trong ng&agrave;nh lập tr&igrave;nh. Mặc d&ugrave; C++ l&agrave; ng&ocirc;n ngữ lập tr&igrave;nh đ&atilde; ra đời kh&aacute; l&acirc;u, nhưng kh&ocirc;ng phải ai cũng c&oacute; cơ hội để t&igrave;m hiểu về n&oacute;.</p>
+
+<p>V&igrave; vậy, <span style="color:#800080"><strong>Kteam </strong></span>đ&atilde; x&acirc;y dựng l&ecirc;n kh&oacute;a học <strong><a href="http://www.howkteam.vn/course/khoa-hoc-lap-trinh-c-can-ban-4">LẬP TR&Igrave;NH C++ CĂN BẢN</a>&nbsp;</strong>để cung cấp một lượng kiến thức về ng&ocirc;n ngữ C++ n&oacute;i ri&ecirc;ng, v&agrave; c&aacute;c kh&aacute;i niệm kh&aacute;c trong lập tr&igrave;nh n&oacute;i chung.</p>
+
+<p>Nội dung kh&oacute;a học sẽ được ph&acirc;n t&aacute;ch một c&aacute;ch chi tiết, nhằm gi&uacute;p c&aacute;c bạn dễ hiểu v&agrave; thực h&agrave;nh được ngay. Serial d&agrave;nh cho những bạn chưa c&oacute; bất kỳ kiến thức g&igrave; về lập tr&igrave;nh, hoặc những bạn mất căn bản muốn lấy lại kiến thức nền tảng lập tr&igrave;nh, cụ thể l&agrave; C++.</p>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="block block-rounded block-fx-shadow" id="review-wrapper">
+                            <div class="block-header">
+                                <h3 class="block-title font-w600">Đánh giá</h3>
+                            </div>
+                            <div class="block-content pt-0 asyncPartial" id="review-container" data-url="/review/reviewstats/2714?type=Lecture">
+                            </div>
+                            <div class="block-content">
+                                <div id="review-list" class="mb-20">
+
+        <div class="comment-item" id="review-12447">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/7b79fbe0-72c7-4acb-ac84-2fb828d2b02b">
+                        <img class="media-object avatar-sm" src="/Content/images/avatar/avatar.png" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <div class="comment-replacement">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/7b79fbe0-72c7-4acb-ac84-2fb828d2b02b">hyngungoc</a>
+                            <span>đã đánh giá</span>
+                            <strong class="format-time" title="2020-09-08 18:52:56">18:52 08-09-2020</strong>
+                        </div>
+                        <div class="review-star">
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                        </div>
+                        <p class="mb-0 review-body">
+                            
+                        </p>
+                    </div>
+                    <div class="comment-footer">
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(12447, 'Review'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="review-12369">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/15e4795f-9cda-4b32-8325-198d1b4f3df6">
+                        <img class="media-object avatar-sm" src="/Content/images/avatar/avatar.png" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <div class="comment-replacement">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/15e4795f-9cda-4b32-8325-198d1b4f3df6">NoGodPlsNo3</a>
+                            <span>đã đánh giá</span>
+                            <strong class="format-time" title="2020-08-17 21:55:48">21:55 17-08-2020</strong>
+                        </div>
+                        <div class="review-star">
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="far fa-star text-warning"></span>
+                                    <span class="far fa-star text-warning"></span>
+                                    <span class="far fa-star text-warning"></span>
+                                    <span class="far fa-star text-warning"></span>
+                        </div>
+                        <p class="mb-0 review-body">
+                            jcnjbsdfv
+                        </p>
+                    </div>
+                    <div class="comment-footer">
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(12369, 'Review'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="review-1568">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/06ee1ba0-edb0-4b82-b7c0-fb2c39c9a405">
+                        <img class="media-object avatar-sm" src="https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1577265251/avatar_user/nyvic8d73qqmubmyeagp.jpg" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <div class="comment-replacement">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/06ee1ba0-edb0-4b82-b7c0-fb2c39c9a405">Đạt Nguyễn</a>
+                            <span>đã đánh giá</span>
+                            <strong class="format-time" title="2019-12-25 16:22:56">16:22 25-12-2019</strong>
+                        </div>
+                        <div class="review-star">
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                        </div>
+                        <p class="mb-0 review-body">
+                            Dễ hiểu lắm ạ ! em cảm ơn nh&#243;m rất nhiều
+                        </p>
+                    </div>
+                    <div class="comment-footer">
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(1568, 'Review'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="review-1252">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/2cdc6724-155c-44dd-b890-26c9c04ed9e1">
+                        <img class="media-object avatar-sm" src="/Content/images/avatar/avatar.png" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <div class="comment-replacement">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/2cdc6724-155c-44dd-b890-26c9c04ed9e1">Russell Nguyen</a>
+                            <span>đã đánh giá</span>
+                            <strong class="format-time" title="2019-09-08 23:25:31">23:25 08-09-2019</strong>
+                        </div>
+                        <div class="review-star">
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                        </div>
+                        <p class="mb-0 review-body">
+                            B&#224;i giang cực kỳ dễ hiểu.  Thanks t&#225;c gi&#225; v&#224; HowKteam
+                        </p>
+                    </div>
+                    <div class="comment-footer">
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(1252, 'Review'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="review-1186">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/4ceb1434-45be-42bd-a44e-181a03254c44">
+                        <img class="media-object avatar-sm" src="https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1566527315/avatar_user/cv0w6aufclbqnyjefogz.gif" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <div class="comment-replacement">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/4ceb1434-45be-42bd-a44e-181a03254c44">tdkhoa2018</a>
+                            <span>đã đánh giá</span>
+                            <strong class="format-time" title="2019-08-23 10:24:41">10:24 23-08-2019</strong>
+                        </div>
+                        <div class="review-star">
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                                    <span class="fa fa-star text-warning"></span>
+                        </div>
+                        <p class="mb-0 review-body">
+                            b&#224;i giảng rất dễ hiểu
+                        </p>
+                    </div>
+                    <div class="comment-footer">
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(1186, 'Review'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="review-show-more" class="btn btn-outline-primary btn-block mt-20 mb-20" data-action="/review/reviewlist/2714?page=2&amp;type=2">Xem thêm ...</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8">
+                <div class="block block-rounded block-fx-shadow" id="comment-wrapper">
+                    <div class="block-header">
+                        <h3 class="block-title font-w600">Bình luận</h3>
+                    </div>
+                    <div class="block-content pt-0">
+                            <div class="media">
+        <div class="media-left d-none d-sm-block pr-10">
+            <img class="media-object avatar" src="/Content/images/avatar/avatar.png" />
+        </div>
+        <div class="media-body">
+            <div class="text-center p-20 border">
+                <p class="mb-10">Để bình luận, bạn cần đăng nhập bằng tài khoản Howkteam.</p>
+                <a class="btn btn-primary btn-noborder" href="/account/login?ReturnUrl=%2Fcourse%2Fkhoa-hoc-lap-trinh-c-can-ban%2Fcon-tro-co-ban-trong-c-2714" >Đăng nhập</a>
+            </div>
+        </div>
+    </div>
+
+                    </div>
+                    <div class="block-content">
+                        <div id="comment-list" class="mb-20">
+
+        <div class="comment-item" id="comment-item-6487">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/33ce49cd-de11-4513-b5b4-aead9a6b0047">
+                        <img class="media-object avatar" src="https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1562913614/avatar_user/pgofdpx9wjuvcefma3yk.jpg" />
+                    </a>
+                </div>
+                <div class="media-body overflow-y-auto" id="comment-body-6487">
+                    <div class="comment-replacement" id="comment-replacement-6487">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/33ce49cd-de11-4513-b5b4-aead9a6b0047">Nguyễn Văn Qu&#226;n</a>
+                            <span>đã bình luận</span>
+                            <strong class="format-time" title="2019-09-06 13:27:27">13:27 06-09-2019</strong>
+                        </div>
+                        <div class="comment-body">
+                            
+<p><strong>Anh ơi cho em hỏi mình có thể khai báo 1 biến con trỏ khác bằng địa chỉ của biến con trỏ trc đó ko ạ,</strong></p>
+<p><strong>và cú pháp khai báo thì ntn ạ. Em cảm ơn</strong></p>
+
+                        </div>
+                    </div>
+                    <div class="comment-footer">
+                        
+
+                        <a class="Upvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này rất hữu ích" onclick="voteDiscuss(6487, 'Upvote'); return false;"><i class="far fa-thumbs-up font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="Downvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này không hữu ích" onclick="voteDiscuss(6487, 'Downvote'); return false;"><i class="far fa-thumbs-down font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="" href="#" onclick="OpenReplyForm(6487); return false;">Trả lời</a>
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(6487, 'Discuss'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                        <button class="btn btn-link btn-showReply" data-id="6487" data-count="1" data-show="-1" data-action="/discuss/replylist/6487">Xem tất cả 1 câu trả lời</button>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="comment-item-6319">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/0c7bf766-dbb3-4b97-863e-9859d052eb82">
+                        <img class="media-object avatar" src="/Content/images/avatar/avatar.png" />
+                    </a>
+                </div>
+                <div class="media-body overflow-y-auto" id="comment-body-6319">
+                    <div class="comment-replacement" id="comment-replacement-6319">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/0c7bf766-dbb3-4b97-863e-9859d052eb82">Thanh quan</a>
+                            <span>đã bình luận</span>
+                            <strong class="format-time" title="2019-08-14 19:16:31">19:16 14-08-2019</strong>
+                        </div>
+                        <div class="comment-body">
+                            
+<p>cam on vi da tao ra nhung bai hoc hay va bo ich, xem rat de hieu</p>
+<p>&nbsp;</p>
+
+                        </div>
+                    </div>
+                    <div class="comment-footer">
+                        
+
+                        <a class="Upvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này rất hữu ích" onclick="voteDiscuss(6319, 'Upvote'); return false;"><i class="far fa-thumbs-up font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="Downvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này không hữu ích" onclick="voteDiscuss(6319, 'Downvote'); return false;"><i class="far fa-thumbs-down font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="" href="#" onclick="OpenReplyForm(6319); return false;">Trả lời</a>
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(6319, 'Discuss'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-item" id="comment-item-2087">
+            <div class="media">
+                <div class="media-left">
+                    <a href="/users/310a9f8f-70f4-4393-a3da-521f3bb28145">
+                        <img class="media-object avatar" src="/Content/images/avatar/avatar.png" />
+                    </a>
+                </div>
+                <div class="media-body overflow-y-auto" id="comment-body-2087">
+                    <div class="comment-replacement" id="comment-replacement-2087">
+                        <div class="comment-heading text-muted">
+                            <a class="comment-author-name" href="/users/310a9f8f-70f4-4393-a3da-521f3bb28145">lequocdattyty191</a>
+                            <span>đã bình luận</span>
+                            <strong class="format-time" title="2018-10-26 21:53:55">21:53 26-10-2018</strong>
+                        </div>
+                        <div class="comment-body">
+                            
+<p>sao em k xem dc ạ,</p>
+<p>&nbsp;</p>
+
+                        </div>
+                    </div>
+                    <div class="comment-footer">
+                        
+
+                        <a class="Upvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này rất hữu ích" onclick="voteDiscuss(2087, 'Upvote'); return false;"><i class="far fa-thumbs-up font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="Downvote text-secondary" href="#" data-toggle="tooltip" data-placement="bottom" title="Bình luận này không hữu ích" onclick="voteDiscuss(2087, 'Downvote'); return false;"><i class="far fa-thumbs-down font-size-h5 fa-fw"></i><span>0</span></a>
+                        <a class="" href="#" onclick="OpenReplyForm(2087); return false;">Trả lời</a>
+                        <a class="float-right report-discuss" href="#" onclick="Kteam.createReport(2087, 'Discuss'); return false;">
+                            <i class="far fa-flag fa-fw" aria-hidden="true"></i> Báo cáo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                        </div>
+                        <!-- END Discussion -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Lecture -->
+<!-- Quick learn modal -->
+
+<div class="quick-view-modal">
+    <a href="javascript:void(0);" class="quick-view-close"><i class="fas fa-fw fa-times fa-2x"></i></a>
+    <div class="d-flex">
+        <div class="quick-view-left-container" style="display: none">
+            <div class="block-content">
+                <h5 class="mb-0"><i class="fas fa-fw fa-list"></i> Danh sách bài giảng</h5>
+            </div>
+            <div class="quick-view-lecture-list" data-action="/learn/quickviewlecturelist" data-id="" data-activeid="">
+
+            </div>
+            <div class="quick-view-toolbar">
+                <a href="#" onclick="openRightSideBarQuickView(); return false;" class="btn btn-primary"><i class="fas fa-fw fa-book"></i> Nội dung</a>
+            </div>
+        </div>
+        <div class="quick-view-center-container">
+            <iframe class="h-100 w-100" id="quickViewVideo" type="text/html" data-src="" frameborder="0" allowfullscreen></iframe>
+            <div class="d-flex align-items-center h-100">
+                <h5 class="text-white mx-auto"> Không có video.</h5>
+            </div>
+        </div>
+        <div class="quick-view-right-container" style="display: none">
+            <div class="quick-view-toolbar">
+                <a href="#" onclick="openLeftSideBarQuickView(); return false;" class="btn btn-primary"><i class="fas fa-fw fa-list"></i> Danh sách bài giảng</a>
+            </div>
+            <div class="quick-view-content p-20"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="review-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="block block-themed block-transparent">
+                <div class="block-header bg-gd-primary">
+                    <h3 class="block-title font-w600">Đánh giá và Nhận xét</h3>
+                    <div class="block-options">
+                        <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                            <i class="si si-close"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="block-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <input type="hidden" id="HistoryTargetId" value="2714" />
+    <input type="hidden" id="HistoryTargetType" value="Lecture" />
+    <input type="hidden" id="HistoryAction" value="/history/create" />
+
+    <!-- Discuss data -->
+    <input type="hidden" id="DiscussTargetId" value="2714" />
+    <input type="hidden" id="DiscussTargetType" value="2" />
+</div>
+
+
+
+        </main>
+        <!-- END Main Container -->
+        <!-- Footer -->
+        
+<footer id="page-footer" class="mt-30">
+    <div class="content">
+        <div class="page-content">
+            <div class="mb-20">
+                <a href="/">
+                    <img class="img-fluid" src="/Content/images/logo/kteam_Purple _100x46.png">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-6">
+                    <p class="font-w600 mb-10 font-size-h5">Thông tin Kteam</p>
+                    <ul class="list-unstyled mb-30">
+                        <li><a href="/about">Về Kteam</a></li>
+                        <li><a href="/about">Dịch vụ</a></li>
+                        <li><a href="/about/contact">Liên hệ</a></li>
+                    </ul>
+                    <p class="font-w600 mb-10 font-size-h5">Đóng góp từ cộng đồng</p>
+                    <ul class="list-unstyled">
+                        <li><a href="/donate">Tài trợ</a></li>
+                        <li><a href="/about/supporters">Người ủng hộ</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <p class="font-w600 mb-10 font-size-h5">Lĩnh vực</p>
+                    <ul class="list-unstyled asyncPartial" data-url="/common/footercategories"></ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <p class="font-w600 mb-10 font-size-h5">Khoá học</p>
+                    <ul class="list-unstyled asyncPartial" data-url="/common/footercourses"></ul>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <p class="font-w600 mb-10 font-size-h5">Cộng đồng</p>
+                    <ul class="list-unstyled mb-30">
+                        <li><a href="/questions">Hỏi đáp</a></li>
+                        <li><a href="#">Tài liệu</a></li>
+                        <li><a href="#">Chiến dịch</a></li>
+                    </ul>
+
+                    <p class="font-w600 mb-10 font-size-h5">Liên kết</p>
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="https://www.vted.vn/">Vted - Học toán online chất lượng cao</a></li>
+                        <li><a target="_blank" href="http://laptrinhvb.net/">Lập trình VB.NET</a></li>
+                        <li><a target="_blank" href="https://linuxteamvietnam.us/">Linux Team Việt Nam</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-w600 mb-10 font-size-h5">Kết nối với Kteam</p>
+                    <p class="mb-5">Kết nối với Kteam qua mạng xã hội</p>
+                    <div class="icon-format mb-30">
+                        <a href="https://www.facebook.com/howkteam/" class="mr-5"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.youtube.com/kteam"><i class="fab fa-youtube-square fa-2x"></i></a>
+                    </div>
+                    <p class="font-w600 mb-10 font-size-h5 mt-20">Chứng nhận</p>
+                    <a href="http://www.dmca.com/Protection/Status.aspx?ID=69d56ff4-063f-4275-811c-3338b7e3d82e" title="DMCA.com Protection Status" class="dmca-badge">
+                        <img src="//images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=69d56ff4-063f-4275-811c-3338b7e3d82e">
+                    </a>
+                    <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                </div>
+            </div>
+
+            <hr>
+            <div class="mb-10">
+                <span>Howkteam &copy; 2020</span>
+                
+            </div>
+        </div>
+    </div>
+
+    <a href="#" onclick="Kteam.scrollToPosition(0); return false;" class="btn-scrollTop btn btn-primary btn-noborder btn-circle"><i class="fas fa-chevron-up"></i></a>
+
+<form action="/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714" id="__AjaxAntiForgeryForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="JUzinCChOIgD00JYXEuuidYpzhnbvKVWnisYf1hFyIQkT_Vqoh8HRzk1d6iOgPv4PpkGqkCjKI7US5LF4Xn8IgABRk5zZ-xeWP-OIXraVKE1" /></form></footer>
+
+
+<div class="modal fade" id="authen-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="block block-themed block-transparent">
+                <div class="block-header bg-primary">
+                    <h3 class="block-title font-w600">Yêu cầu đăng nhập</h3>
+                    <div class="block-options">
+                        <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                            <i class="si si-close"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="block-content">
+                    <div class="text-center p-20 border">
+                        <p class="mb-10">Để sử dụng tính năng này, Bạn cần đăng nhập bằng tài khoản Howkteam.</p>
+                        <a class="btn btn-primary btn-noborder" href="/account/login?ReturnUrl=%2Fcourse%2Fkhoa-hoc-lap-trinh-c-can-ban%2Fcon-tro-co-ban-trong-c-2714">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="adblockModal" style="display: none;">
+    <div class="text-center">
+        <i class="fas fa-eye-slash fa-3x text-danger mb-20"></i>
+        <h4 class="text-danger font-w600">AD BLOCKER DETECTED</h4>
+        <p>
+            Để xem được nội dung và giúp Kteam duy trì hoạt động. <br />
+            <strong>Bạn vui lòng tắt Adblock trên website <a href="www.howkteam.com">www.howkteam.vn</a> nhé!</strong>
+        </p>
+    </div>
+</div>
+
+<div class="modal fade" id="adsPopupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content bg-transparent">
+            <div class="block block-themed block-transparent">
+                <div class="block-header bg-transparent">
+                    <h3 class="block-title font-w600"></h3>
+                    <div class="block-options">
+                        <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                            <i class="si si-close fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="block-content block-content-sm text-center">
+                    <a href="#" target="_blank">
+                        <img src="" class="img-fluid w-100" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- END Footer -->
+    </div>
+    <!-- END Page Container -->
+
+    <script src="/bundles/common-libs?v=_XY3cGPARtZdwHXNhPdyy16Ufo2rs6HNJmsabukkcps1"></script>
+
+    <script src="/signalr/hubs"></script>
+
+    <script src="/bundles/theme-libs?v=6i8zZkpFkF-UL2x586p0efO5F7jWQ1q20axq786HMK01"></script>
+
+    <script src="/main/js?v=h4HwvldGbEtFC4NmIO92rVlIlZ3rktp1Mp9gwFSWm7E1"></script>
+
+
+    
+    <script>
+        $("a.side-nav-learn").addClass("active");
+    </script>
+    <script src="/js/cke?v=WB1iguo82YwCcOpK8fENPXDoiBnFUcVsjiQq9D2zrV01"></script>
+
+    <script src="/js/ckadapter?v=EMethGq5XEaC73mTqiPKQZO63rJ5Qc0HfyilD0P3B5Y1"></script>
+
+    <script src="/js/cmt?v=o2uuQcN9L1GvbetO8H09mZun2kUK_SEdX8jTtwb6xEU1"></script>
+
+    <script src="/js/review?v=TiqCqdrJsr2KrmwX6USbrKsvo-hta_2v9rjCbx_XDlE1"></script>
+
+    <script src="/js/quicklearn?v=wVvEGEzTmNdfHEOrup4fxiC6Y4Y_Wtxli68buwFIvYI1"></script>
+
+    <script src="/js/docout?v=M8woRZfSEGf-3XDzsm3G1I3x5CTc8OZirTqWlNcSU1Y1"></script>
+
+    <script src="/js/focus-learn?v=ei2wSswdYeyP4ol1Vc8asv5_IKOjGOAFn6KV4i7Qun41"></script>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        showProcessingMessages: false,
+        messageStyle: "none",
+        showMathMenu: false,
+        tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"], ["\\[","\\]"] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"], linebreaks: { automatic: true, width: "75% container" } },
+        
+        });
+    </script>
+
+
+    <!--============ Facebook =================== -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.2&appId=1105161409531317';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--============ End facebook =================== -->
+    <!--============ Google Analytics =================== -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-84622810-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!--============ End Google Analytics =================== -->
+</body>
+</html>
+�"'�S      _k(_k�B#��       X    :https://www.howkteam.vn/course/khoa-hoc-lap-trinh-c-can-ban/con-tro-co-ban-trong-c-2714 necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-Frame-Options: SAMEORIGIN
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:23 GMT
+Content-Length: 100460
+ original-response-headers Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNetMvc-Version: 5.2
+X-Frame-Options: SAMEORIGIN
+X-AspNet-Version: 4.0.30319
+Set-Cookie: __RequestVerificationToken=HCLlLlhKyuLSIUlmgvLAOJTovGXwy-eGHNg-FLQRSiQpfR7F5PDdmbdoXgi36S2l-17fbmY4xjqU0oEXly-cIc4uIVR7Tg031rFWij1vP0Q1; path=/; HttpOnly
+X-Powered-By: ASP.NET
+Date: Wed, 23 Sep 2020 09:32:23 GMT
+Content-Length: 100460
+ uncompressed-len 0 predictor::resource-count 100 net-response-time-onstart 882 net-response-time-onstop 1102 predictor::https://f.howkteam.vn/Upload/cke/images/2_IMAGE%20TUTORIAL/2_CPP/1_CPP%20l%E1%BA%ADp%20tr%C3%ACnh%20c%C6%A1%20b%E1%BA%A3n/B42/5_Con%20tr%E1%BB%8F%20c%C6%A1%20b%E1%BA%A3n%20trong%20Cpp_Howkteam_com.png 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Content/images/button/PDF.png 1,1,1600853544,4097 predictor::https://drive.google.com/uc?id=1DhBZvBhDHROGqgCtOyQQFTwuul94m983 1,1,1600853544,4096 predictor::https://drive.google.com/uc?id=1GeF7yKmhsB1f7o7SEW2eMM8Lhrgr1pHB 1,1,1600853544,4096 predictor::https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1493074423/avatar_user/snatdl5kbmdmlwh05gf8.jpg 1,1,1600853544,4097 predictor::https://drive.google.com/uc?id=0BwqtkOhv7GE-bEktaHdMbEtoLVk 1,1,1600853544,4096 predictor::https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1577265251/avatar_user/nyvic8d73qqmubmyeagp.jpg 1,1,1600853544,4097 predictor::https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1566527315/avatar_user/cv0w6aufclbqnyjefogz.gif 1,1,1600853544,4097 predictor::https://res.cloudinary.com/howkteam/image/upload/c_fill,g_face,h_120,w_120/v1562913614/avatar_user/pgofdpx9wjuvcefma3yk.jpg 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Content/images/logo/kteam_Purple%20_100x46.png 1,1,1600853544,4097 predictor::https://images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=69d56ff4-063f-4275-811c-3338b7e3d82e 1,1,1600853544,4096 predictor::https://images.dmca.com/Badges/DMCABadgeHelper.min.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/bundles/common-libs?v=_XY3cGPARtZdwHXNhPdyy16Ufo2rs6HNJmsabukkcps1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/signalr/hubs 1,1,1600853544,4097 predictor::https://www.howkteam.vn/bundles/theme-libs?v=6i8zZkpFkF-UL2x586p0efO5F7jWQ1q20axq786HMK01 1,1,1600853544,4096 predictor::https://www.howkteam.vn/main/js?v=h4HwvldGbEtFC4NmIO92rVlIlZ3rktp1Mp9gwFSWm7E1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/cke?v=WB1iguo82YwCcOpK8fENPXDoiBnFUcVsjiQq9D2zrV01 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/ckadapter?v=EMethGq5XEaC73mTqiPKQZO63rJ5Qc0HfyilD0P3B5Y1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/cmt?v=o2uuQcN9L1GvbetO8H09mZun2kUK_SEdX8jTtwb6xEU1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/review?v=TiqCqdrJsr2KrmwX6USbrKsvo-hta_2v9rjCbx_XDlE1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/quicklearn?v=wVvEGEzTmNdfHEOrup4fxiC6Y4Y_Wtxli68buwFIvYI1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/docout?v=M8woRZfSEGf-3XDzsm3G1I3x5CTc8OZirTqWlNcSU1Y1 1,1,1600853544,4096 predictor::https://www.howkteam.vn/js/focus-learn?v=ei2wSswdYeyP4ol1Vc8asv5_IKOjGOAFn6KV4i7Qun41 1,1,1600853544,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Content/images/banner/code.jpg 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Content/fontawesome/webfonts/fa-solid-900.woff2 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Content/fontawesome/webfonts/fa-regular-400.woff2 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Assets/Theme/fonts/Simple-Line-Icons.woff2?v=2.4.0 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Content/fontawesome/webfonts/fa-brands-400.woff2 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/loader.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/event.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/editor_basic.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/env.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/ckeditor_basic.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/log.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/tools.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dtd.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/event.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/domobject.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/node.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/window.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/document.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/nodelist.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/element.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/documentfragment.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/walker.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/range.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/iterator.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/command.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/ckeditor_base.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/config.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/filter.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/focusmanager.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/keystrokehandler.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/lang.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/scriptloader.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/resourcemanager.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/plugins.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/ui.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/editor.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/basicwriter.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/node.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/comment.js 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/text.js 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/cdata.js 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/fragment.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/filter.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmldataprocessor.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/htmlparser/element.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/template.js 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/ckeditor.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/creators/inline.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/creators/themedui.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/editable.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/selection.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/style.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/comment.js 1,1,1600853544,4097 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/elementpath.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/text.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/dom/rangelist.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/skin.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Plugins/ckeditor/core/_bootstrap.js 1,1,1600853544,4097 predictor::https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.2&appId=1105161409531317 1,1,1600853544,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1600853544,4096 predictor::https://www.howkteam.vn/Content/images/icon/icons-sprite.png 1,1,1600853544,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML 1,1,1600853544,4096 predictor::https://connect.facebook.net/vi_VN/sdk.js?hash=a17fdbc64a6750b2995b1170c8a774b9 1,1,1600853544,4096 predictor::https://pagead2.googlesyndication.com/pagead/js/r20200918/r20190131/show_ads_impl_fy2019.js 1,1,1600853544,4096 predictor::https://partner.googleadservices.com/gampad/cookie.js?domain=www.howkteam.vn&callback=_gfp_s_&client=ca-pub-9004889619110409 1,1,1600853544,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-MML-AM_CHTML.js?V=2.7.5 1,1,1600853544,4096 predictor::https://adservice.google.com.vn/adsid/integrator.js?domain=www.howkteam.vn 1,1,1600853544,4096 predictor::https://adservice.google.com/adsid/integrator.js?domain=www.howkteam.vn 1,1,1600853544,4096 predictor::https://www.facebook.com/tr/?id=1105161409531317&ev=fb_page_view&dl=https%3A%2F%2Fwww.howkteam.vn%2Fcourse%2Fkhoa-hoc-lap-trinh-c-can-ban%2Fcon-tro-co-ban-trong-c-2714&rl=https%3A%2F%2Fwww.google.com%2F&if=false&ts=1600853556008&sw=800&sh=600&at= 1,1,1600853544,4096 predictor::https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101 1,1,1600853544,4096 predictor::https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j86&tid=UA-84622810-1&cid=1334173085.1600853555&jid=948853177&_u=IEBAAEAAAAAAAC~&z=1659557422 1,1,1600853544,4096 predictor::https://www.google.com.vn/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j86&tid=UA-84622810-1&cid=1334173085.1600853555&jid=948853177&_u=IEBAAEAAAAAAAC~&z=1659557422 1,1,1600853544,4096 predictor::https://pagead2.googlesyndication.com/pagead/js/r20200918/r20190131/reactive_library_fy2019.js 1,1,1600853544,4096 predictor::https://tpc.googlesyndication.com/sodar/sodar2.js 1,1,1600853544,4096  �l
